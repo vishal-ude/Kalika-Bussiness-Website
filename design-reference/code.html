@@ -1,0 +1,1583 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,600;0,700;1,400&amp;family=Inter:wght@400;500;600;700&amp;family=Space+Grotesk:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"primary-fixed-dim":"#bac8db","on-secondary-fixed-variant":"#3c4855","primary-fixed":"#d6e4f7","on-tertiary-fixed-variant":"#753400","surface-bright":"#313a43","background":"#0b141c","tertiary":"#ffb68c","primary":"#bac8db","surface-variant":"#2c363e","on-primary-container":"#788597","on-secondary-fixed":"#101d28","on-surface":"#dae4ef","on-background":"#dae4ef","primary-container":"#101d2b","inverse-on-surface":"#28313a","surface-tint":"#bac8db","surface-container-highest":"#2c363e","secondary-fixed":"#d7e4f4","on-secondary":"#26323e","tertiary-container":"#331300","surface-container-low":"#131d24","on-error":"#690005","outline-variant":"#44474c","on-primary-fixed-variant":"#3b4857","on-tertiary":"#532200","inverse-primary":"#535f70","on-primary-fixed":"#0f1c2a","on-tertiary-container":"#c96b2b","secondary-container":"#3e4a57","tertiary-fixed":"#ffdbc9","on-primary":"#253140","secondary-fixed-dim":"#bbc8d8","on-error-container":"#ffdad6","tertiary-fixed-dim":"#ffb68c","on-tertiary-fixed":"#321200","on-secondary-container":"#adbac9","surface-container-high":"#212b33","surface-dim":"#0b141c","surface-container-lowest":"#060f17","inverse-surface":"#dae4ef","error-container":"#93000a","secondary":"#bbc8d8","outline":"#8e9196","error":"#ffb4ab","surface":"#0b141c","surface-container":"#172129","on-surface-variant":"#c4c6cc"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"space-xs":"0.25rem","space-sm":"0.5rem","gutter":"1.5rem","space-lg":"1.5rem","gutter-lg":"2.5rem","margin-mobile":"1.25rem","space-xl":"2.5rem","margin":"2rem","gutter-sm":"1rem","space-md":"1rem","margin-desktop":"4rem"},"fontFamily":{"display-hero":["Barlow Condensed"],"label-md":["Space Grotesk"],"display-hero-mobile":["Barlow Condensed"],"headline-xl-mobile":["Barlow Condensed"],"body-sm":["Inter"],"headline-xl":["Barlow Condensed"],"label-caps":["Space Grotesk"],"code-spec":["Space Grotesk"],"headline-md":["Barlow Condensed"],"headline-lg-mobile":["Barlow Condensed"],"body-md":["Inter"],"title-sm":["Inter"],"headline-lg":["Barlow Condensed"],"body-lg":["Inter"]},"fontSize":{"display-hero":["72px",{"lineHeight":"76px","letterSpacing":"-0.02em","fontWeight":"700"}],"label-md":["13px",{"lineHeight":"16px","letterSpacing":"0.04em","fontWeight":"500"}],"display-hero-mobile":["44px",{"lineHeight":"48px","letterSpacing":"-0.01em","fontWeight":"700"}],"headline-xl-mobile":["32px",{"lineHeight":"36px","letterSpacing":"0em","fontWeight":"700"}],"body-sm":["13px",{"lineHeight":"20px","letterSpacing":"0em","fontWeight":"400"}],"headline-xl":["48px",{"lineHeight":"52px","letterSpacing":"-0.01em","fontWeight":"700"}],"label-caps":["11px",{"lineHeight":"14px","letterSpacing":"0.12em","fontWeight":"600"}],"code-spec":["12px",{"lineHeight":"18px","letterSpacing":"0.02em","fontWeight":"400"}],"headline-md":["24px",{"lineHeight":"28px","letterSpacing":"0.01em","fontWeight":"600"}],"headline-lg-mobile":["26px",{"lineHeight":"30px","letterSpacing":"0em","fontWeight":"600"}],"body-md":["15px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"400"}],"title-sm":["18px",{"lineHeight":"24px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-lg":["36px",{"lineHeight":"40px","letterSpacing":"0em","fontWeight":"600"}],"body-lg":["18px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"400"}]}}}};</script></head><body class="bg-background font-body-md text-on-surface antialiased selection:bg-on-tertiary-container selection:text-white"><header class="fixed top-0 inset-x-0 z-50 bg-primary-container/85 backdrop-blur-xl shadow-[0_16px_32px_-8px_rgba(0,5,11,0.60)]"><div class="h-20 w-full px-margin-mobile lg:px-margin-desktop flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md shrink-0"><img alt="Kalika Steel Traders and Industries Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WgWy5E-Zg0-oLzOirmWhIsndI_yP3oyJ058WxLgj2qIyI1-c2QhH7PgMvZGR2PB99CGk7eMPekqNmPgKavDp6puPQ_sXjBKBAyBDDIsWpbhsK-n8pnIxE_qYxCuGGBPKHlDSWsTgPIFuwPs4_g_c22-UQ7B4nOCeoYMDAa_FZoV7QLBAwmXvRAHKnU_a-OJwjQtJ_IuX4pm5FiONT-s6e5mhFdGo0D4rjHtQCb46Rs"/><div class="flex flex-col"><span class="font-headline-md text-headline-md tracking-wider uppercase text-on-surface leading-none">KALIKA</span><span class="font-label-caps text-label-caps tracking-widest uppercase text-tertiary-fixed-dim leading-tight">STEEL TRADERS &amp; INDUSTRIES</span></div></div><nav class="hidden xl:flex items-center gap-space-lg" data-active-classes="text-tertiary-fixed font-semibold"><a aria-current="page" class="transition-colors tracking-wide uppercase text-tertiary-fixed font-semibold" data-path="home" href="#hero">Home</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors tracking-wide uppercase" data-path="about" href="#about">About Us</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors tracking-wide uppercase" data-path="products" href="#products">Products</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors tracking-wide uppercase" data-path="manufacturing" href="#manufacturing">Manufacturing</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors tracking-wide uppercase" data-path="why-choose-us" href="#why-us">Why Choose Us</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors tracking-wide uppercase" data-path="brands" href="#brands">Brands</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors tracking-wide uppercase" data-path="gallery" href="#gallery">Gallery</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors tracking-wide uppercase" data-path="contact" href="#contact">Contact</a></nav><div class="flex items-center gap-space-md shrink-0"><a class="relative group overflow-hidden rounded-lg bg-on-tertiary-container hover:bg-tertiary px-space-md py-space-sm font-label-md text-label-md font-semibold text-white hover:text-on-tertiary shadow-[0_4px_16px_rgba(201,107,43,0.35)] transition-all active:translate-y-px" href="#contact"><span class="relative z-10 flex items-center gap-space-xs uppercase tracking-wider"><span class="material-symbols-outlined text-[16px]">request_quote</span><span>Get A Quote</span></span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-background"><div class="flex flex-col w-full">
+<!-- Toast Feedback Component -->
+<div class="fixed bottom-6 right-6 z-50 transform translate-y-32 opacity-0 transition-all duration-300 pointer-events-none flex items-center gap-space-sm bg-surface-container-high px-space-md py-space-sm rounded-lg shadow-xl border-l-4 border-on-tertiary-container" id="toastNotification">
+<span class="material-symbols-outlined text-tertiary-fixed text-[20px]" id="toastIcon">check_circle</span>
+<span class="font-body-sm text-body-sm text-on-surface" id="toastMessage">RFQ Specification Submitted Successfully</span>
+</div>
+<!-- Modal: RFQ / Interactive Quote Engine -->
+<div class="fixed inset-0 z-50 hidden bg-surface-dim/80 backdrop-blur-md flex items-center justify-center p-margin-mobile" id="rfqModal">
+<div class="relative w-full max-w-2xl bg-surface-container-high rounded-xl p-space-lg md:p-space-xl shadow-2xl flex flex-col gap-space-md max-h-[921px] overflow-y-auto">
+<div class="flex items-center justify-between pb-space-sm border-b border-outline-variant/30">
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-on-tertiary-container">Procurement Gateway</span>
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase">Request Quotation &amp; Project Schedule</h3>
+</div>
+<button class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors" id="closeRfqModalBtn" type="button">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<form class="flex flex-col gap-space-md pt-space-xs" id="modalRfqForm">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-caps text-label-caps uppercase text-on-surface-variant">Full Name *</label>
+<input class="bg-primary-container px-space-md py-space-sm text-on-surface placeholder:text-outline text-body-sm font-body-sm rounded-lg outline-none focus:ring-1 focus:ring-on-tertiary-container" placeholder="Er. Vikram Deshmukh" required="" type="text"/>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-caps text-label-caps uppercase text-on-surface-variant">Contact Number (+91) *</label>
+<input class="bg-primary-container px-space-md py-space-sm text-on-surface placeholder:text-outline text-body-sm font-body-sm rounded-lg outline-none focus:ring-1 focus:ring-on-tertiary-container" pattern="[0-9]{10}" placeholder="98234XXXXX" required="" type="tel"/>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-caps text-label-caps uppercase text-on-surface-variant">Corporate Email *</label>
+<input class="bg-primary-container px-space-md py-space-sm text-on-surface placeholder:text-outline text-body-sm font-body-sm rounded-lg outline-none focus:ring-1 focus:ring-on-tertiary-container" placeholder="procurement@infra-build.com" required="" type="email"/>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-caps text-label-caps uppercase text-on-surface-variant">Target Category *</label>
+<select class="bg-primary-container px-space-md py-space-sm text-on-surface text-body-sm font-body-sm rounded-lg outline-none focus:ring-1 focus:ring-on-tertiary-container" required="">
+<option value="Steel &amp; TMT Bars">Primary &amp; Secondary TMT Bars (Fe 500D / 550D)</option>
+<option value="Corrugated Cement Sheets">Corrugated Cement Roofing Sheets (Kalika Industries)</option>
+<option value="Cement &amp; Aggregates">Cement (OPC/PPC) &amp; AAC Infrastructure Blocks</option>
+<option value="Plumbing &amp; Fluids">Industrial Plumbing &amp; Valves</option>
+<option value="Plywood &amp; Boards">BWR Marine &amp; Shuttering Plywood</option>
+<option value="Hardware &amp; Fasteners">High-Tensile Fasteners &amp; Structural Hardware</option>
+<option value="Paints &amp; Coatings">Industrial Weather Defense Coatings</option>
+</select>
+</div>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-caps text-label-caps uppercase text-on-surface-variant">Estimated Tonnage / Linear Volume &amp; Project Site *</label>
+<input class="bg-primary-container px-space-md py-space-sm text-on-surface placeholder:text-outline text-body-sm font-body-sm rounded-lg outline-none focus:ring-1 focus:ring-on-tertiary-container" placeholder="e.g. 85 Metric Tonnes TMT Rebar + 1,200 Cement Sheets to Pune Industrial Corridor" required="" type="text"/>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-caps text-label-caps uppercase text-on-surface-variant">Project Scope / Technical Notes</label>
+<textarea class="bg-primary-container px-space-md py-space-sm text-on-surface placeholder:text-outline text-body-sm font-body-sm rounded-lg outline-none focus:ring-1 focus:ring-on-tertiary-container resize-none" placeholder="Provide IS code criteria, ASTM standards, delivery staging dates..." rows="3"></textarea>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<div class="flex items-center gap-space-xs text-on-surface-variant font-code-spec text-code-spec">
+<span class="material-symbols-outlined text-[16px] text-tertiary-fixed">verified</span>
+<span>Fast-track response within 180 mins</span>
+</div>
+<button class="bg-on-tertiary-container hover:bg-tertiary text-white hover:text-on-tertiary px-space-lg py-space-sm font-label-md text-label-md uppercase tracking-wider rounded-lg transition-all shadow-[0_4px_16px_rgba(201,107,43,0.35)] flex items-center gap-space-xs" type="submit">
+<span>Transmit RFQ</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</form>
+</div>
+</div>
+<!-- Modal: Product 3D Simulation & Interactive Technical Viewer -->
+<div class="fixed inset-0 z-50 hidden bg-surface-dim/85 backdrop-blur-md flex items-center justify-center p-margin-mobile" id="product3dModal">
+<div class="relative w-full max-w-4xl bg-surface-container rounded-xl shadow-2xl overflow-hidden flex flex-col md:flex-row max-h-[921px]">
+<button class="absolute top-4 right-4 z-20 w-8 h-8 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors" id="closeProduct3dBtn" type="button">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+<!-- 3D Canvas / Dynamic Interactive Canvas Simulator -->
+<div class="md:w-3/5 bg-surface-container-lowest p-space-md flex flex-col justify-between relative overflow-hidden">
+<div class="flex items-center justify-between z-10">
+<span class="font-code-spec text-code-spec uppercase px-space-xs py-0.5 rounded bg-surface-container-high text-tertiary-fixed tracking-wider">3D Metallurgical Visualizer</span>
+<span class="font-code-spec text-code-spec text-on-surface-variant" id="modalCadRef">IS: 1786 REINFORCEMENT SPEC</span>
+</div>
+<div class="relative w-full h-72 md:h-96 flex items-center justify-center">
+<!-- Dynamic SVG Geometric Wireframe Simulated in 3D Angle -->
+<div class="transition-transform duration-300 transform rotate-6 scale-110 flex items-center justify-center" id="rotatingModelMesh">
+<svg class="w-56 h-56 text-tertiary drop-shadow-[0_10px_20px_rgba(217,119,54,0.3)]" id="dynamicSvgModel" viewbox="0 0 200 200">
+<!-- Default Rebar Cylindrical Wireframe -->
+<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.8">
+<ellipse class="stroke-tertiary-fixed" cx="100" cy="40" rx="60" ry="20"></ellipse>
+<ellipse class="stroke-primary" cx="100" cy="160" rx="60" ry="20"></ellipse>
+<line class="stroke-outline" x1="40" x2="40" y1="40" y2="160"></line>
+<line class="stroke-outline" x1="160" x2="160" y1="40" y2="160"></line>
+<!-- Diagonal ribbed ribs -->
+<path class="stroke-tertiary-fixed-dim" d="M45,70 Q100,85 155,70" stroke-width="2.5"></path>
+<path class="stroke-tertiary-fixed-dim" d="M45,95 Q100,110 155,95" stroke-width="2.5"></path>
+<path class="stroke-tertiary-fixed-dim" d="M45,120 Q100,135 155,120" stroke-width="2.5"></path>
+<path class="stroke-tertiary-fixed-dim" d="M45,145 Q100,160 155,145" stroke-width="2.5"></path>
+<line class="stroke-outline-variant" stroke-dasharray="4 4" x1="100" x2="100" y1="20" y2="180"></line>
+</g>
+</svg>
+</div>
+</div>
+<!-- Interactive Rotation Slider -->
+<div class="z-10 flex flex-col gap-space-xs bg-surface-container-high/90 backdrop-blur-md p-space-sm rounded-lg">
+<div class="flex justify-between items-center text-code-spec font-code-spec text-on-surface-variant">
+<span>AZIMUTH ROTATION</span>
+<span id="rotationAngleDisplay">24° ORTHOGONAL</span>
+</div>
+<input class="w-full accent-on-tertiary-container cursor-pointer" id="cadRotationSlider" max="180" min="-180" type="range" value="24"/>
+</div>
+</div>
+<!-- Specs Sidebar -->
+<div class="md:w-2/5 p-space-lg flex flex-col justify-between bg-surface-container-high">
+<div class="flex flex-col gap-space-sm">
+<span class="font-label-caps text-label-caps uppercase text-tertiary-fixed tracking-widest" id="modalProductDept">Kalika Steel Traders</span>
+<h3 class="font-headline-md text-headline-md text-on-surface" id="modalProductTitle">Fe 500D High Ductility TMT Bars</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant" id="modalProductDescription">Engineered thermo-mechanically treated reinforcement bars providing elevated tensile strength and cyclic fatigue resistance for high-rise infrastructure and seismic zones.</p>
+<div class="mt-space-sm space-y-space-xs">
+<h4 class="font-label-caps text-label-caps uppercase text-on-surface tracking-wider">Engineering Attributes</h4>
+<div class="flex flex-col gap-1 text-code-spec font-code-spec text-on-surface-variant">
+<div class="flex justify-between py-1 border-b border-outline-variant/20">
+<span>Yield Strength (Min):</span>
+<span class="text-on-surface" id="modalSpec1">500 N/mm²</span>
+</div>
+<div class="flex justify-between py-1 border-b border-outline-variant/20">
+<span>Tensile Strength:</span>
+<span class="text-on-surface" id="modalSpec2">565 N/mm²</span>
+</div>
+<div class="flex justify-between py-1 border-b border-outline-variant/20">
+<span>Total Elongation (A5):</span>
+<span class="text-on-surface" id="modalSpec3">≥ 16.0%</span>
+</div>
+<div class="flex justify-between py-1 border-b border-outline-variant/20">
+<span>Batch Testing Standard:</span>
+<span class="text-on-surface" id="modalSpec4">IS 1786 / BIS 2012</span>
+</div>
+</div>
+</div>
+</div>
+<div class="pt-space-md flex flex-col gap-space-xs">
+<button class="w-full bg-on-tertiary-container hover:bg-tertiary text-white hover:text-on-tertiary py-space-sm font-label-md text-label-md uppercase tracking-wider rounded-lg transition-all shadow-[0_4px_16px_rgba(201,107,43,0.35)] flex items-center justify-center gap-space-xs" id="modalOrderQuoteBtn">
+<span class="material-symbols-outlined text-[16px]">request_quote</span>
+<span>Request Instant Yard Rate</span>
+</button>
+<span class="text-center font-code-spec text-[11px] text-outline">Factory test certificate (MTC) supplied with every manifest.</span>
+</div>
+</div>
+</div>
+</div>
+<!-- SECTION 1: HERO SECTION (#hero) -->
+<section class="relative min-h-[942px] flex flex-col justify-between overflow-hidden bg-primary-container px-margin-mobile lg:px-margin-desktop py-space-lg" id="hero">
+<!-- Embedded 3D Scene Pipeline Asset -->
+<!-- STITCH_THREEJS_START:ANIMATION_3 class="absolute inset-0 w-full h-full pointer-events-auto bg-transparent opacity-65" -->
+<div class="absolute inset-0 w-full h-full pointer-events-auto bg-transparent opacity-65" style="display:block;">
+<script src="https://ajax.googleapis.com/ajax/libs/threejs/r125/three.min.js"></script>
+<div id="threejs-container-ANIMATION_3" style="width:100%;height:100%"></div>
+<script>
+(function() {
+  const container = document.getElementById('threejs-container-ANIMATION_3');
+  const devicePixelRatio = window.devicePixelRatio || 1;
+  // Three.js Scene: Hero Section 3D Architectural Steel Framing & TMT Bars with Interactive Cursor Parallax and Ambient Cinematic Lighting
+const width = container.clientWidth || window.innerWidth;
+const height = container.clientHeight || window.innerHeight;
+
+const scene = new THREE.Scene();
+scene.fog = new THREE.FogExp2(0x101D2B, 0.035);
+
+const camera = new THREE.PerspectiveCamera(48, width / height, 0.1, 100);
+camera.position.set(0, 1.2, 8.5);
+
+const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true, powerPreference: "high-performance" });
+renderer.setSize(width, height);
+renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure = 1.25;
+container.appendChild(renderer.domElement);
+
+// Lighting
+const ambientLight = new THREE.AmbientLight(0x8FA4B8, 0.9);
+scene.add(ambientLight);
+
+const mainDirLight = new THREE.DirectionalLight(0xffffff, 2.2);
+mainDirLight.position.set(5, 8, 4);
+scene.add(mainDirLight);
+
+// Cinematic Copper Rim Light
+const copperRimLight = new THREE.PointLight(0xD97736, 4.5, 20);
+copperRimLight.position.set(-6, -2, 2);
+scene.add(copperRimLight);
+
+const steelBlueLight = new THREE.PointLight(0x4A709C, 3.0, 25);
+steelBlueLight.position.set(6, 4, -2);
+scene.add(steelBlueLight);
+
+// Materials
+const steelMat = new THREE.MeshStandardMaterial({
+  color: 0x384554,
+  metalness: 0.85,
+  roughness: 0.28,
+});
+
+const darkBeamMat = new THREE.MeshStandardMaterial({
+  color: 0x1B2733,
+  metalness: 0.9,
+  roughness: 0.35,
+});
+
+const copperAccentMat = new THREE.MeshStandardMaterial({
+  color: 0xD97736,
+  metalness: 0.75,
+  roughness: 0.25,
+});
+
+const tmtBarMat = new THREE.MeshStandardMaterial({
+  color: 0x546373,
+  metalness: 0.82,
+  roughness: 0.38,
+});
+
+const group = new THREE.Group();
+scene.add(group);
+
+// Procedural I-Beam generator
+function createIBeam(length, beamWidth, flangeHeight, thickness) {
+  const beamGroup = new THREE.Group();
+  const webMat = steelMat;
+  // Web (center plate)
+  const webGeo = new THREE.BoxGeometry(beamWidth - thickness * 2, thickness, length);
+  const webMesh = new THREE.Mesh(webGeo, webMat);
+  beamGroup.add(webMesh);
+  
+  // Flanges (top & bottom caps)
+  const flangeGeo = new THREE.BoxGeometry(thickness, flangeHeight, length);
+  const leftFlange = new THREE.Mesh(flangeGeo, darkBeamMat);
+  leftFlange.position.x = -(beamWidth / 2 - thickness / 2);
+  beamGroup.add(leftFlange);
+  
+  const rightFlange = new THREE.Mesh(flangeGeo, darkBeamMat);
+  rightFlange.position.x = (beamWidth / 2 - thickness / 2);
+  beamGroup.add(rightFlange);
+  
+  return beamGroup;
+}
+
+// Construct structural architectural framework
+const b1 = createIBeam(7.5, 0.7, 0.7, 0.08);
+b1.rotation.set(0.2, 0.5, 0.1);
+b1.position.set(1.5, 0.2, -1);
+group.add(b1);
+
+const b2 = createIBeam(6.5, 0.6, 0.6, 0.07);
+b2.rotation.set(-0.35, -0.6, 0.4);
+b2.position.set(-1.8, -0.5, 0.5);
+group.add(b2);
+
+const b3 = createIBeam(8.0, 0.55, 0.55, 0.06);
+b3.rotation.set(1.2, 0.3, -0.5);
+b3.position.set(0.8, -1.8, -0.8);
+group.add(b3);
+
+// TMT Bar bundles (ribbed cylindrical steel rebar)
+const tmtCount = 14;
+const tmtRadius = 0.07;
+const tmtLength = 7.0;
+const tmtGroup = new THREE.Group();
+
+for (let i = 0; i < tmtCount; i++) {
+  const angle = (i / tmtCount) * Math.PI * 2;
+  const radDist = 0.35 + (i % 2) * 0.12;
+  const rebarGeo = new THREE.CylinderGeometry(tmtRadius, tmtRadius, tmtLength, 16);
+  const rebar = new THREE.Mesh(rebarGeo, i % 4 === 0 ? copperAccentMat : tmtBarMat);
+  rebar.position.set(Math.cos(angle) * radDist, (Math.random() - 0.5) * 0.2, Math.sin(angle) * radDist);
+  tmtGroup.add(rebar);
+}
+tmtGroup.rotation.set(0.4, 0.8, -0.3);
+tmtGroup.position.set(2.4, -0.2, 1.2);
+group.add(tmtGroup);
+
+// Structural connector nodes / nodes with bolts
+const jointGeo = new THREE.BoxGeometry(0.85, 0.85, 0.85);
+const joint = new THREE.Mesh(jointGeo, copperAccentMat);
+joint.position.set(-0.6, 0.8, 0.4);
+joint.rotation.set(0.3, 0.4, 0.2);
+group.add(joint);
+
+// Architectural floating ambient particles (representing industrial precision dust/sparks)
+const particleCount = 120;
+const particleGeo = new THREE.BufferGeometry();
+const particlePos = new Float32Array(particleCount * 3);
+for (let i = 0; i < particleCount * 3; i += 3) {
+  particlePos[i] = (Math.random() - 0.5) * 14;
+  particlePos[i + 1] = (Math.random() - 0.5) * 10;
+  particlePos[i + 2] = (Math.random() - 0.5) * 10;
+}
+particleGeo.setAttribute('position', new THREE.BufferAttribute(particlePos, 3));
+const particleMat = new THREE.PointsMaterial({
+  color: 0xD97736,
+  size: 0.045,
+  transparent: true,
+  opacity: 0.65,
+  blending: THREE.AdditiveBlending
+});
+const particles = new THREE.Points(particleGeo, particleMat);
+scene.add(particles);
+
+// Mouse parallax smooth interpolation
+let targetX = 0;
+let targetY = 0;
+let mouseX = 0;
+let mouseY = 0;
+
+function onMouseMove(e) {
+  const normX = (e.clientX / window.innerWidth) * 2 - 1;
+  const normY = -(e.clientY / window.innerHeight) * 2 + 1;
+  targetX = normX * 0.45;
+  targetY = normY * 0.35;
+}
+window.addEventListener('mousemove', onMouseMove, { passive: true });
+
+// Window resize
+function onResize() {
+  const w = container.clientWidth || window.innerWidth;
+  const h = container.clientHeight || window.innerHeight;
+  camera.aspect = w / h;
+  camera.updateProjectionMatrix();
+  renderer.setSize(w, h);
+}
+window.addEventListener('resize', onResize);
+
+// Clock & Animation loop
+const clock = new THREE.Clock();
+let reqId;
+
+function animate() {
+  reqId = requestAnimationFrame(animate);
+  const elapsedTime = clock.getElapsedTime();
+  
+  // Smooth mouse inertia
+  mouseX += (targetX - mouseX) * 0.05;
+  mouseY += (targetY - mouseY) * 0.05;
+  
+  // Subtle slow rotation
+  group.rotation.y = elapsedTime * 0.08 + mouseX;
+  group.rotation.x = Math.sin(elapsedTime * 0.05) * 0.05 + mouseY;
+  
+  // Particle ambient drift
+  particles.rotation.y = elapsedTime * 0.02;
+  particles.rotation.x = Math.cos(elapsedTime * 0.03) * 0.02;
+  
+  renderer.render(scene, camera);
+}
+animate();
+
+// Clean up
+return function cleanup() {
+  cancelAnimationFrame(reqId);
+  window.removeEventListener('mousemove', onMouseMove);
+  window.removeEventListener('resize', onResize);
+  renderer.dispose();
+};
+
+})();
+</script>
+</div>
+<!-- STITCH_THREEJS_END:ANIMATION_3 -->
+<!-- Structural Grid Ambient Lines -->
+<div class="absolute inset-0 pointer-events-none bg-[radial-gradient(#d97736_1px,transparent_1px)] [background-size:32px_32px] opacity-10"></div>
+<div class="absolute -top-32 right-12 w-96 h-96 bg-on-tertiary-container/15 rounded-full blur-3xl pointer-events-none"></div>
+<!-- Hero Top Content -->
+<div class="relative z-10 max-w-4xl pt-space-lg flex flex-col gap-space-md">
+<!-- Eyebrow Badge -->
+<div class="inline-flex items-center gap-space-xs self-start px-space-sm py-1 bg-surface-container-high/90 backdrop-blur-md rounded-full border-l-2 border-on-tertiary-container">
+<span class="w-2 h-2 rounded-full bg-on-tertiary-container animate-pulse"></span>
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-primary-fixed">BUILDING MATERIALS &amp; INDUSTRIAL SOLUTIONS</span>
+</div>
+<!-- Main Headline -->
+<h1 class="font-display-hero text-display-hero uppercase tracking-tight text-on-surface leading-none">
+        BUILDING STRONGER FOUNDATIONS. <br/>
+<span class="text-tertiary-fixed">POWERING BETTER FUTURES.</span>
+</h1>
+<!-- Subtitle -->
+<p class="font-body-lg text-body-lg text-secondary max-w-2xl">
+        Your trusted destination for certified industrial steel products, heavy reinforcement bars, advanced corrugated cement sheet manufacturing, civil plumbing systems, plywood, and turnkey hardware.
+      </p>
+<!-- Action Buttons -->
+<div class="flex flex-wrap items-center gap-space-md pt-space-sm">
+<a class="group bg-on-tertiary-container hover:bg-tertiary text-white hover:text-on-tertiary px-space-lg py-space-md rounded-lg font-label-md text-label-md uppercase tracking-wider font-semibold transition-all shadow-[0_4px_20px_rgba(201,107,43,0.4)] flex items-center gap-space-sm" href="#products">
+<span>EXPLORE OUR PRODUCTS</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+<a class="bg-surface-container-high/70 hover:bg-surface-container text-on-surface hover:text-white px-space-lg py-space-md rounded-lg font-label-md text-label-md uppercase tracking-wider font-semibold transition-all backdrop-blur-md flex items-center gap-space-sm shadow-md" href="#contact">
+<span class="material-symbols-outlined text-[18px] text-tertiary-fixed">mail</span>
+<span>CONTACT OUR TEAM</span>
+</a>
+</div>
+</div>
+<!-- Trust Line Bar & Live Specs Strip -->
+<div class="relative z-10 mt-space-xl pt-space-md border-t border-outline-variant/30 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-space-md bg-surface-container/60 backdrop-blur-md p-space-md rounded-xl">
+<div class="flex flex-wrap items-center gap-space-md text-on-surface">
+<div class="flex items-center gap-space-xs font-label-caps text-label-caps tracking-widest uppercase">
+<span class="material-symbols-outlined text-tertiary-fixed text-[18px]">verified</span>
+<span>QUALITY CERTIFIED MATERIALS</span>
+</div>
+<span class="hidden md:inline text-outline-variant font-code-spec">|</span>
+<div class="flex items-center gap-space-xs font-label-caps text-label-caps tracking-widest uppercase">
+<span class="material-symbols-outlined text-tertiary-fixed text-[18px]">local_shipping</span>
+<span>RELIABLE PROJECT DISPATCH</span>
+</div>
+<span class="hidden md:inline text-outline-variant font-code-spec">|</span>
+<div class="flex items-center gap-space-xs font-label-caps text-label-caps tracking-widest uppercase">
+<span class="material-symbols-outlined text-tertiary-fixed text-[18px]">precision_manufacturing</span>
+<span>INDUSTRIAL EXPERTISE</span>
+</div>
+</div>
+<!-- Live Batch Compliance Meta Indicator -->
+<div class="flex items-center gap-space-md self-end lg:self-auto font-code-spec text-code-spec text-on-surface-variant">
+<span class="inline-flex items-center gap-1.5">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary-fixed"></span>
+<span>BIS: IS 1786 COMPLIANT</span>
+</span>
+<a class="flex items-center gap-1 text-tertiary-fixed hover:underline uppercase font-label-caps text-label-caps" href="#about">
+<span>Explore Down</span>
+<span class="material-symbols-outlined text-[14px] animate-bounce">arrow_downward</span>
+</a>
+</div>
+</div>
+</section>
+<!-- SECTION 2: BUSINESS HIGHLIGHTS BAR -->
+<section class="w-full bg-surface-container-low px-margin-mobile lg:px-margin-desktop py-space-xl border-y border-outline-variant/20">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Highlight Card 1 -->
+<div class="group bg-surface-container p-space-lg rounded-xl shadow-md flex flex-col gap-space-sm hover:-translate-y-1 transition-all duration-300">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center text-tertiary-fixed group-hover:bg-on-tertiary-container group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-[26px]">gavel</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase">Quality Products</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Certified grade steel, TMT rebar, and verified components rigorously conforming to regional, BIS, and national engineering codes.</p>
+<span class="font-code-spec text-code-spec text-tertiary-fixed-dim uppercase tracking-wider mt-auto">Batch MTC Documented</span>
+</div>
+<!-- Highlight Card 2 -->
+<div class="group bg-surface-container p-space-lg rounded-xl shadow-md flex flex-col gap-space-sm hover:-translate-y-1 transition-all duration-300">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center text-tertiary-fixed group-hover:bg-on-tertiary-container group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-[26px]">grid_view</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase">Wide Range</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Complete building lifecycle solutions from heavy foundation rebar and structural beams to plumbing, paints, and finishing hardware.</p>
+<span class="font-code-spec text-code-spec text-tertiary-fixed-dim uppercase tracking-wider mt-auto">7 Core Categories</span>
+</div>
+<!-- Highlight Card 3 -->
+<div class="group bg-surface-container p-space-lg rounded-xl shadow-md flex flex-col gap-space-sm hover:-translate-y-1 transition-all duration-300">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center text-tertiary-fixed group-hover:bg-on-tertiary-container group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-[26px]">factory</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase">Manufacturing</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">In-house corrugated cement sheet plant engineered by Kalika Industries, featuring automated slurry batching and controlled steam curing.</p>
+<span class="font-code-spec text-code-spec text-tertiary-fixed-dim uppercase tracking-wider mt-auto">Direct Plant Dispatch</span>
+</div>
+<!-- Highlight Card 4 -->
+<div class="group bg-surface-container p-space-lg rounded-xl shadow-md flex flex-col gap-space-sm hover:-translate-y-1 transition-all duration-300">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center text-tertiary-fixed group-hover:bg-on-tertiary-container group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-[26px]">handshake</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase">Customer Focus</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Punctual site delivery, transparent wholesale pricing structures, flexible trade credit terms, and dedicated technical support.</p>
+<span class="font-code-spec text-code-spec text-tertiary-fixed-dim uppercase tracking-wider mt-auto">Trusted by 1,200+ Builders</span>
+</div>
+</div>
+</section>
+<!-- SECTION 3: ABOUT SECTION (#about) -->
+<section class="w-full bg-background px-margin-mobile lg:px-margin-desktop py-space-xl" id="about">
+<div class="max-w-6xl mx-auto flex flex-col gap-space-xl">
+<!-- Section Header -->
+<div class="flex flex-col gap-space-xs max-w-2xl">
+<div class="flex items-center gap-space-xs font-label-caps text-label-caps uppercase tracking-widest text-on-tertiary-container">
+<span class="w-1.5 h-1.5 rounded-full bg-on-tertiary-container"></span>
+<span>WHO WE ARE</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl text-on-surface uppercase leading-tight">
+          BUILDING TRUST THROUGH QUALITY AND COMMITMENT.
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Kalika Steel Traders and Kalika Industries operate as a unified commercial and industrial enterprise, supplying India’s civil construction, infrastructure, industrial warehousing, and residential developments with structural assurance and metallurgical integrity.
+        </p>
+</div>
+<!-- Interactive Division Selector & Blueprint Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-lg items-center">
+<!-- Division Details Column -->
+<div class="lg:col-span-6 flex flex-col gap-space-md">
+<!-- Toggle Pill Control -->
+<div class="flex p-1 bg-surface-container rounded-lg self-start">
+<button class="px-space-md py-space-xs font-label-md text-label-md uppercase tracking-wider rounded-lg bg-on-tertiary-container text-white transition-all" id="btnDivisionTrade" type="button">Trading Division</button>
+<button class="px-space-md py-space-xs font-label-md text-label-md uppercase tracking-wider rounded-lg text-on-surface-variant hover:text-on-surface transition-all" id="btnDivisionMfg" type="button">Manufacturing Division</button>
+</div>
+<!-- Dynamic Division Content Panel -->
+<div class="bg-surface-container p-space-lg rounded-xl shadow-lg flex flex-col gap-space-md transition-all" id="divisionTradingCard">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps uppercase text-tertiary-fixed tracking-widest">COMMERCIAL WHOLESALE ARM</span>
+<span class="font-code-spec text-code-spec text-on-surface-variant">ESTABLISHED SUPPLY NETWORK</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase">Kalika Steel Traders</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Acting as premier distributors and channel partners for India's leading steel giants, Kalika Steel Traders coordinates multi-tonnage stockholdings of Fe 500D / 550D TMT bars, structural angles, MS channels, structural beams, and complete finishing materials.
+            </p>
+<div class="grid grid-cols-2 gap-space-sm pt-space-xs">
+<div class="bg-surface-container-high p-space-sm rounded-lg flex flex-col">
+<span class="font-headline-md text-headline-md text-on-surface">50,000+</span>
+<span class="font-code-spec text-code-spec text-on-surface-variant">Tonnes Supplied Annually</span>
+</div>
+<div class="bg-surface-container-high p-space-sm rounded-lg flex flex-col">
+<span class="font-headline-md text-headline-md text-on-surface">100%</span>
+<span class="font-code-spec text-code-spec text-on-surface-variant">Certified Mill Traceability</span>
+</div>
+</div>
+<ul class="space-y-space-xs pt-space-xs text-body-sm font-body-sm text-secondary">
+<li class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-tertiary-fixed">check</span> Authorized direct-stocking partnership</li>
+<li class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-tertiary-fixed">check</span> Automated computer weighing bridges &amp; calibrated load cells</li>
+<li class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-tertiary-fixed">check</span> Consolidated job-site deliveries within 24-48 hours</li>
+</ul>
+</div>
+<div class="hidden bg-surface-container p-space-lg rounded-xl shadow-lg flex flex-col gap-space-md transition-all" id="divisionMfgCard">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps uppercase text-tertiary-fixed tracking-widest">INDUSTRIAL PRODUCTION ARM</span>
+<span class="font-code-spec text-code-spec text-on-surface-variant">IN-HOUSE ROOFING SYSTEMS</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase">Kalika Industries</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              The manufacturing wing engineered for premium building envelopes. Kalika Industries produces high-density fiber-reinforced corrugated cement roofing sheets and plain structural panels, designed for superior acoustic insulation, fire resistance, and anti-corrosive performance.
+            </p>
+<div class="grid grid-cols-2 gap-space-sm pt-space-xs">
+<div class="bg-surface-container-high p-space-sm rounded-lg flex flex-col">
+<span class="font-headline-md text-headline-md text-on-surface">IS 459</span>
+<span class="font-code-spec text-code-spec text-on-surface-variant">Conformity Standard</span>
+</div>
+<div class="bg-surface-container-high p-space-sm rounded-lg flex flex-col">
+<span class="font-headline-md text-headline-md text-on-surface">Zero</span>
+<span class="font-code-spec text-code-spec text-on-surface-variant">Asbestos Alternative Formulas</span>
+</div>
+</div>
+<ul class="space-y-space-xs pt-space-xs text-body-sm font-body-sm text-secondary">
+<li class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-tertiary-fixed">check</span> High-pressure corrugation rollers for dimensional uniformity</li>
+<li class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-tertiary-fixed">check</span> Accelerated steam curing chambers guaranteeing flexural load</li>
+<li class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-tertiary-fixed">check</span> Non-combustible Class 1 fire endurance ratings</li>
+</ul>
+</div>
+</div>
+<!-- Architectural Blueprint Graphic Container -->
+<div class="lg:col-span-6 relative bg-surface-container-lowest p-space-lg rounded-xl overflow-hidden shadow-2xl flex flex-col justify-between min-h-[420px]">
+<!-- Background Blueprint Grid Pattern -->
+<svg class="absolute inset-0 w-full h-full opacity-15 pointer-events-none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<pattern height="40" id="archGrid" patternunits="userSpaceOnUse" width="40">
+<path d="M 40 0 L 0 0 0 40" fill="none" stroke="#bac8db" stroke-width="0.8"></path>
+</pattern>
+</defs>
+<rect fill="url(#archGrid)" height="100%" width="100%"></rect>
+</svg>
+<!-- Blueprint Header Overlay -->
+<div class="relative z-10 flex items-center justify-between pb-space-sm border-b border-outline-variant/30">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-tertiary-fixed text-[20px]">architecture</span>
+<span class="font-code-spec text-code-spec uppercase text-on-surface">SYS ARCHITECTURE SPEC // PL-2025</span>
+</div>
+<span class="font-code-spec text-code-spec text-primary">SCALE 1:50 METRIC</span>
+</div>
+<!-- Central Architectural Schematics -->
+<div class="relative z-10 py-space-lg flex flex-col items-center justify-center text-center">
+<div class="w-32 h-32 rounded-full border border-dashed border-tertiary-fixed flex items-center justify-center p-space-sm relative">
+<div class="w-24 h-24 rounded-full bg-surface-container flex items-center justify-center text-tertiary-fixed shadow-inner">
+<span class="material-symbols-outlined text-[44px]">shield_with_house</span>
+</div>
+<span class="absolute -top-2 bg-on-tertiary-container text-white px-2 py-0.5 rounded text-[10px] font-code-spec uppercase">Unified Hub</span>
+</div>
+<h4 class="mt-space-md font-headline-md text-headline-md text-on-surface uppercase">360° Construction Supply Chain</h4>
+<p class="font-body-sm text-body-sm text-secondary max-w-sm mt-space-xs">Single-window coordination linking raw mill metallurgy directly with job-site execution teams.</p>
+</div>
+<!-- Blueprint Footer Metrics -->
+<div class="relative z-10 pt-space-sm border-t border-outline-variant/30 grid grid-cols-3 gap-space-sm text-center">
+<div>
+<span class="block font-headline-md text-headline-md text-tertiary-fixed">100%</span>
+<span class="block font-code-spec text-[11px] text-on-surface-variant uppercase">Quality Assured</span>
+</div>
+<div>
+<span class="block font-headline-md text-headline-md text-on-surface">24/7</span>
+<span class="block font-code-spec text-[11px] text-on-surface-variant uppercase">Plant Dispatch</span>
+</div>
+<div>
+<span class="block font-headline-md text-headline-md text-on-surface">Tier 1</span>
+<span class="block font-code-spec text-[11px] text-on-surface-variant uppercase">Channel Partner</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 4: PRODUCTS SECTION (#products) -->
+<section class="w-full bg-surface-container-lowest px-margin-mobile lg:px-margin-desktop py-space-xl" id="products">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-xl">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs max-w-2xl">
+<div class="flex items-center gap-space-xs font-label-caps text-label-caps uppercase tracking-widest text-on-tertiary-container">
+<span class="w-1.5 h-1.5 rounded-full bg-on-tertiary-container"></span>
+<span>PRODUCT SPECTRUM</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl text-on-surface uppercase leading-tight">
+            EVERYTHING YOU NEED TO BUILD BETTER.
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Explore our curated inventory of heavy industrial steel, building materials, and finishing solutions engineered for uncompromising strength.
+          </p>
+</div>
+<!-- Filter Tabs -->
+<div class="flex flex-wrap gap-space-xs bg-surface-container p-1 rounded-lg self-start">
+<button class="product-filter-btn px-space-md py-space-xs font-label-md text-label-md uppercase tracking-wider rounded-lg bg-on-tertiary-container text-white transition-colors" data-filter="all" type="button">All (7)</button>
+<button class="product-filter-btn px-space-md py-space-xs font-label-md text-label-md uppercase tracking-wider rounded-lg text-on-surface-variant hover:text-on-surface transition-colors" data-filter="steel" type="button">Steel &amp; Structure</button>
+<button class="product-filter-btn px-space-md py-space-xs font-label-md text-label-md uppercase tracking-wider rounded-lg text-on-surface-variant hover:text-on-surface transition-colors" data-filter="roofing" type="button">Roofing &amp; Panels</button>
+<button class="product-filter-btn px-space-md py-space-xs font-label-md text-label-md uppercase tracking-wider rounded-lg text-on-surface-variant hover:text-on-surface transition-colors" data-filter="utilities" type="button">Utilities &amp; Finish</button>
+</div>
+</div>
+<!-- 7 Rich Interactive Cards Bento Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<!-- CARD 1: Steel & TMT Bars -->
+<div class="product-card group bg-surface-container rounded-xl overflow-hidden shadow-lg flex flex-col justify-between transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl" data-category="steel">
+<div class="p-space-lg flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps uppercase text-tertiary-fixed tracking-wider">Fe 500D / 550D Rebar</span>
+<button class="btn-open-3d flex items-center gap-1 px-space-xs py-0.5 rounded bg-surface-container-high text-on-surface font-code-spec text-code-spec hover:text-tertiary-fixed transition-colors" data-product="steel" type="button">
+<span class="material-symbols-outlined text-[14px]">view_in_ar</span>
+<span>View in 3D</span>
+</button>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase">Steel &amp; TMT Bars</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Primary &amp; secondary thermo-mechanically treated reinforcement rebar, MS Equal Angles, Channels, Joists &amp; Bindings.</p>
+<div class="h-44 w-full bg-surface-container-lowest rounded-lg overflow-hidden relative mt-space-xs flex items-center justify-center">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Close up dramatic industrial photograph of bundled thermo mechanically treated TMT steel rebar with precision ribbed ridges stacked neatly in a warehouse with copper lighting reflections" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDtiJQ9a7yXi3OD7q_yiuhbGkD_F4RKtbC71N3dO8DG1Dl8mOcJURjbSPbl3yhUhgm1C1C99cXWEjXr_FVJezJahmP7-2c3U3BuVGEJNgN-_py9gy-iahlrGHCHxfbc5bDGWKaYXaO7ABTdtLTzJyRvzZ9F0kch-X-aKI-uPU4PA9r-L36h4_RBTs5Kk4PMlWANo46zEJ8KK9e5IEMpQI2TsuDiQ_KXv2wV0XSLJyg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest/80 via-transparent to-transparent"></div>
+<span class="absolute bottom-2 left-2 font-code-spec text-[11px] text-tertiary-fixed-dim bg-surface-container-high/80 px-2 py-0.5 rounded">IS 1786 CERTIFIED</span>
+</div>
+<ul class="space-y-1.5 pt-space-xs text-body-sm font-body-sm text-on-surface-variant">
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-tertiary-fixed"></span> High ductility for earthquake zones</li>
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-tertiary-fixed"></span> Superior corrosion resistance (CRS options)</li>
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-tertiary-fixed"></span> Consistent gauge from 8mm to 36mm</li>
+</ul>
+</div>
+<div class="p-space-lg pt-0 flex items-center justify-between border-t border-outline-variant/20 mt-space-sm">
+<span class="font-code-spec text-code-spec text-on-surface-variant">Bulk Yard Inventory</span>
+<button class="btn-trigger-rfq text-tertiary-fixed hover:text-white font-label-md text-label-md uppercase tracking-wider flex items-center gap-1 transition-colors" type="button">
+<span>Request Rates</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- CARD 2: Cement & Building Materials -->
+<div class="product-card group bg-surface-container rounded-xl overflow-hidden shadow-lg flex flex-col justify-between transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl" data-category="steel">
+<div class="p-space-lg flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps uppercase text-tertiary-fixed tracking-wider">Civil Infrastructure</span>
+<button class="btn-open-3d flex items-center gap-1 px-space-xs py-0.5 rounded bg-surface-container-high text-on-surface font-code-spec text-code-spec hover:text-tertiary-fixed transition-colors" data-product="cement" type="button">
+<span class="material-symbols-outlined text-[14px]">view_in_ar</span>
+<span>View in 3D</span>
+</button>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase">Cement &amp; Building Materials</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Grade 43/53 OPC &amp; PPC premium cement brands, autoclaved aerated concrete (AAC) blocks, and civil mortar compounds.</p>
+<div class="h-44 w-full bg-surface-container-lowest rounded-lg overflow-hidden relative mt-space-xs flex items-center justify-center">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Stacked pallets of industrial grade portland pozzolana cement bags alongside precision cut lightweight AAC concrete masonry blocks in a modern logistics yard" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2S_pJxTCTWxioCjqO3l-lE_tpsuUM3B7Y2Fap3nniNbJVatPJQGoVGrkfeQ-5ESsrOl_WdmjbyAoST8hm5SELux84jJxrYJunaeykcLXHKHPVKl2K5u3Pl0j-eavSNECKTiILJ8Mo4Oc2z4G6W5xjp5lkkV6am0nI1XhaO2Bj5ydIfUjTm0wnwiJiQCxR-kZ6-NqKu6iHXr1m7598mFcH8kv2y2Nl7v2DKqVMIBo"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest/80 via-transparent to-transparent"></div>
+<span class="absolute bottom-2 left-2 font-code-spec text-[11px] text-tertiary-fixed-dim bg-surface-container-high/80 px-2 py-0.5 rounded">OPC 53 / PPC SPECS</span>
+</div>
+<ul class="space-y-1.5 pt-space-xs text-body-sm font-body-sm text-on-surface-variant">
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-tertiary-fixed"></span> Rapid setting &amp; high ultimate compressive strength</li>
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-tertiary-fixed"></span> Precision dimensional AAC block thermal insulation</li>
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-tertiary-fixed"></span> Moisture-locked poly-laminated packaging</li>
+</ul>
+</div>
+<div class="p-space-lg pt-0 flex items-center justify-between border-t border-outline-variant/20 mt-space-sm">
+<span class="font-code-spec text-code-spec text-on-surface-variant">Direct Mill Dispatch</span>
+<button class="btn-trigger-rfq text-tertiary-fixed hover:text-white font-label-md text-label-md uppercase tracking-wider flex items-center gap-1 transition-colors" type="button">
+<span>Request Rates</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- CARD 3: Corrugated Cement Sheets (Kalika Industries Mfg) -->
+<div class="product-card group bg-surface-container rounded-xl overflow-hidden shadow-lg flex flex-col justify-between transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl border-t-2 border-on-tertiary-container" data-category="roofing">
+<div class="p-space-lg flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps uppercase text-tertiary-fixed tracking-wider">Manufactured In-House</span>
+<button class="btn-open-3d flex items-center gap-1 px-space-xs py-0.5 rounded bg-surface-container-high text-on-surface font-code-spec text-code-spec hover:text-tertiary-fixed transition-colors" data-product="sheets" type="button">
+<span class="material-symbols-outlined text-[14px]">view_in_ar</span>
+<span>View in 3D</span>
+</button>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase">Corrugated Cement Sheets</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">High-tensile corrugated and flat fiber-cement roofing engineered by Kalika Industries for heavy industrial sheds and agricultural roofing.</p>
+<div class="h-44 w-full bg-surface-container-lowest rounded-lg overflow-hidden relative mt-space-xs flex items-center justify-center">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="High quality corrugated fiber cement industrial roofing sheets neatly stacked in curing yard showcasing precision wave corrugation profiles and clean finished edges" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC3mkKkouAkKylvi3RS3qp-lToMxUSJuFHMJQKrUMcZI7ddVGgdGYktv839oB--CwmkQNXmwo1ug1exGAfMyK-z7UTfHHQwh4GX7phmgnS50mdc7SD2OFAQ90a0Osh8jOs6RUvKQ-WN9W0a9j4i-HUDuPXkmqf7nh-c6s7SqkX2Avsamw_-Zf7Zn3xA89P4bUyhNJpEZYF0dbry0SsppTcQjZtIA-I2dKI75ulmmyA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest/80 via-transparent to-transparent"></div>
+<span class="absolute bottom-2 left-2 font-code-spec text-[11px] text-tertiary-fixed-dim bg-surface-container-high/80 px-2 py-0.5 rounded">KALIKA INDUSTRIES OEM</span>
+</div>
+<ul class="space-y-1.5 pt-space-xs text-body-sm font-body-sm text-on-surface-variant">
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-tertiary-fixed"></span> Weather-proof, rot-proof &amp; chemical resistance</li>
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-tertiary-fixed"></span> High flexural breaking load capacity</li>
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-tertiary-fixed"></span> Low acoustic reverberation during heavy monsoon rainfall</li>
+</ul>
+</div>
+<div class="p-space-lg pt-0 flex items-center justify-between border-t border-outline-variant/20 mt-space-sm">
+<span class="font-code-spec text-code-spec text-tertiary-fixed">Factory Direct Supply</span>
+<button class="btn-trigger-rfq text-tertiary-fixed hover:text-white font-label-md text-label-md uppercase tracking-wider flex items-center gap-1 transition-colors" type="button">
+<span>Request Rates</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- CARD 4: Plumbing Materials -->
+<div class="product-card group bg-surface-container rounded-xl overflow-hidden shadow-lg flex flex-col justify-between transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl" data-category="utilities">
+<div class="p-space-lg flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps uppercase text-tertiary-fixed tracking-wider">Fluid Handling</span>
+<button class="btn-open-3d flex items-center gap-1 px-space-xs py-0.5 rounded bg-surface-container-high text-on-surface font-code-spec text-code-spec hover:text-tertiary-fixed transition-colors" data-product="plumbing" type="button">
+<span class="material-symbols-outlined text-[14px]">view_in_ar</span>
+<span>View in 3D</span>
+</button>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase">Plumbing Materials</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">CPVC hot &amp; cold water plumbing, UPVC pressure pipes, SWR soil drainage lines, high-grade brass valves, and overhead storage tanks.</p>
+<div class="h-44 w-full bg-surface-container-lowest rounded-lg overflow-hidden relative mt-space-xs flex items-center justify-center">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Industrial array of engineered CPVC pipes heavy duty brass gate valves and UPVC pipe fittings organized neatly on metallic warehouse shelves" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAIy2Q2LtcAqWPIToVKkdDYB2g_RdN5D8Vt6Qu2OFGgFjyLs3iSgAoYmqZRaSDhi_msvA210yGGGN70iysGVKBENx9OZHJydBw7OOuGP4Z7NpfJsD3HGh0tSw_OvdetfH1TLI8UjgoSHC4-e2KnqorrOk6W23sKOMXaIqHfMBqZcBtxTYw2Vv1Pbv4-jSP3raR2g7RvdzmCYlSK5oxhYjVjmchdzRYwjf_6pRwXJZU"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest/80 via-transparent to-transparent"></div>
+<span class="absolute bottom-2 left-2 font-code-spec text-[11px] text-tertiary-fixed-dim bg-surface-container-high/80 px-2 py-0.5 rounded">SDR 11 / SDR 13.5</span>
+</div>
+<ul class="space-y-1.5 pt-space-xs text-body-sm font-body-sm text-on-surface-variant">
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-tertiary-fixed"></span> High thermal tolerance up to 93°C</li>
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-tertiary-fixed"></span> 100% lead-free formulation for potable water</li>
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-tertiary-fixed"></span> Precision leak-proof engineered threading</li>
+</ul>
+</div>
+<div class="p-space-lg pt-0 flex items-center justify-between border-t border-outline-variant/20 mt-space-sm">
+<span class="font-code-spec text-code-spec text-on-surface-variant">Industrial &amp; Domestic</span>
+<button class="btn-trigger-rfq text-tertiary-fixed hover:text-white font-label-md text-label-md uppercase tracking-wider flex items-center gap-1 transition-colors" type="button">
+<span>Request Rates</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- CARD 5: Paints & Colours -->
+<div class="product-card group bg-surface-container rounded-xl overflow-hidden shadow-lg flex flex-col justify-between transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl" data-category="utilities">
+<div class="p-space-lg flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps uppercase text-tertiary-fixed tracking-wider">Surface Coatings</span>
+<button class="btn-open-3d flex items-center gap-1 px-space-xs py-0.5 rounded bg-surface-container-high text-on-surface font-code-spec text-code-spec hover:text-tertiary-fixed transition-colors" data-product="paints" type="button">
+<span class="material-symbols-outlined text-[14px]">view_in_ar</span>
+<span>View in 3D</span>
+</button>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase">Paints &amp; Colours</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Commercial exterior weather-shield emulsions, anti-rust structural red oxide primers, epoxy floor coats, and interior designer finishes.</p>
+<div class="h-44 w-full bg-surface-container-lowest rounded-lg overflow-hidden relative mt-space-xs flex items-center justify-center">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Industrial paint drums and coatings containers with metallic lids and technical color swatches arranged in modern architectural supply showroom" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBLZy75skrQ_RRYsDn1oQ5YToqDanet00FvOB27XdF5kwN0aGl1zpYQGw8K4aP0P1jjnga8WZmIUdSKTMW_m6KV97vAJPzHdJaIbu2Epvk6Xw3E0XTyXG4C-3r1EXXply9ALjuW0-sBOr68C-_0Hs1oxnD1Z6Fnj6yJp_b2-HfC5vnwKZP8aSdumbqxuKDcbpORiMFx0MMvS1JF3aoEHX8Deoklmul7LUoWCmXGBY8"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest/80 via-transparent to-transparent"></div>
+<span class="absolute bottom-2 left-2 font-code-spec text-[11px] text-tertiary-fixed-dim bg-surface-container-high/80 px-2 py-0.5 rounded">UV DEFENSE RATED</span>
+</div>
+<ul class="space-y-1.5 pt-space-xs text-body-sm font-body-sm text-on-surface-variant">
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-tertiary-fixed"></span> Anti-algal and anti-fungal exterior warranty</li>
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-tertiary-fixed"></span> Heavy-duty industrial metal primers</li>
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-tertiary-fixed"></span> High sheen washable interior emulsions</li>
+</ul>
+</div>
+<div class="p-space-lg pt-0 flex items-center justify-between border-t border-outline-variant/20 mt-space-sm">
+<span class="font-code-spec text-code-spec text-on-surface-variant">Full Tint Spectrum</span>
+<button class="btn-trigger-rfq text-tertiary-fixed hover:text-white font-label-md text-label-md uppercase tracking-wider flex items-center gap-1 transition-colors" type="button">
+<span>Request Rates</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- CARD 6: Plywood & Boards -->
+<div class="product-card group bg-surface-container rounded-xl overflow-hidden shadow-lg flex flex-col justify-between transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl" data-category="roofing">
+<div class="p-space-lg flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps uppercase text-tertiary-fixed tracking-wider">Engineered Timber</span>
+<button class="btn-open-3d flex items-center gap-1 px-space-xs py-0.5 rounded bg-surface-container-high text-on-surface font-code-spec text-code-spec hover:text-tertiary-fixed transition-colors" data-product="plywood" type="button">
+<span class="material-symbols-outlined text-[14px]">view_in_ar</span>
+<span>View in 3D</span>
+</button>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase">Plywood &amp; Boards</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Boiling Water Resistant (BWR) marine plywood, film-faced concrete shuttering ply, pinewood blockboards, and calibrate flush doors.</p>
+<div class="h-44 w-full bg-surface-container-lowest rounded-lg overflow-hidden relative mt-space-xs flex items-center justify-center">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Stacked cross laminated sheets of dark film faced concrete shuttering plywood and smooth calibrated marine hardwood plywood panels in timber warehouse" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAkGTqxO-NW0TsgFbjGyuZO8P-wx9oMcQPUGtRZCB62kVy0nIwXXzVDzeWv0ZJcL41ZBoVDoyR4vWJY39UFxekRlMtBLzIicc2m2B1QRVf9eDctWGdt1EgAIBAEbodeFJMJFIWWRqGS61qyTbA8VCG9xBIVRcN9chXOuLbOoTHht_qgDr4PS9dJzz60T1AWEvvJeK1NaJw851VKF02egNomPxy4jRhamZlpWDyN8IY"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest/80 via-transparent to-transparent"></div>
+<span class="absolute bottom-2 left-2 font-code-spec text-[11px] text-tertiary-fixed-dim bg-surface-container-high/80 px-2 py-0.5 rounded">IS 710 BWR MARINE</span>
+</div>
+<ul class="space-y-1.5 pt-space-xs text-body-sm font-body-sm text-on-surface-variant">
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-tertiary-fixed"></span> 72-hour boiling water resistant phenolic bonding</li>
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-tertiary-fixed"></span> High repetition film-faced shuttering panels</li>
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-tertiary-fixed"></span> Borer and termite proof vacuum-pressure treated</li>
+</ul>
+</div>
+<div class="p-space-lg pt-0 flex items-center justify-between border-t border-outline-variant/20 mt-space-sm">
+<span class="font-code-spec text-code-spec text-on-surface-variant">Standard 8x4 Sizes</span>
+<button class="btn-trigger-rfq text-tertiary-fixed hover:text-white font-label-md text-label-md uppercase tracking-wider flex items-center gap-1 transition-colors" type="button">
+<span>Request Rates</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- CARD 7: Hardware & Fasteners -->
+<div class="product-card group bg-surface-container rounded-xl overflow-hidden shadow-lg flex flex-col justify-between transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl md:col-span-2 lg:col-span-3" data-category="utilities">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg p-space-lg items-center">
+<div class="lg:col-span-7 flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps uppercase text-tertiary-fixed tracking-wider">Precision Assembly</span>
+<button class="btn-open-3d flex items-center gap-1 px-space-xs py-0.5 rounded bg-surface-container-high text-on-surface font-code-spec text-code-spec hover:text-tertiary-fixed transition-colors" data-product="hardware" type="button">
+<span class="material-symbols-outlined text-[14px]">view_in_ar</span>
+<span>View in 3D</span>
+</button>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase">Hardware, Fasteners &amp; Structural Fittings</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">High-tensile Grade 8.8 bolts, hex nuts, roofing J-hooks, heavy duty MS hinges, anchoring expanders, galvanized wire nails, and architectural ironmongery.</p>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-sm pt-space-xs">
+<div class="p-space-xs bg-surface-container-high rounded flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary-fixed text-[18px]">build</span>
+<span class="font-code-spec text-code-spec text-on-surface">Tensile Grade 8.8 / 10.9</span>
+</div>
+<div class="p-space-xs bg-surface-container-high rounded flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary-fixed text-[18px]">shield</span>
+<span class="font-code-spec text-code-spec text-on-surface">Hot-Dip Galvanized</span>
+</div>
+<div class="p-space-xs bg-surface-container-high rounded flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary-fixed text-[18px]">inventory_2</span>
+<span class="font-code-spec text-code-spec text-on-surface">Bulk Carton Packs</span>
+</div>
+</div>
+</div>
+<div class="lg:col-span-5 h-48 bg-surface-container-lowest rounded-lg overflow-hidden relative flex items-center justify-center">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Technical industrial photography of galvanized high tensile structural steel bolts hex nuts and washers spread out on clean architectural workshop table" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCue2TRN2KYKXjoaDmxAxBt5Mpq4LmYAeuZ7rVyqp2T_cM8QV6t6-1Cvc95zw44VgriScZqRHuLxpwKSU6Mf6MZfnL9H5Xbhwq1Aqbm2FIu0ZvmBR_uUiZ4nOlJ0jJrQ9F0d-p2Q_ySXpQJ9ObW99sq4VsmcEJ-RUqsjEDfGgfd8E6x-z6TVjvD7DgjlOTuL-ZF82hgPN-i_dUbxu1xldC8JbQW-TrQywV-j8S57N8"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest/80 via-transparent to-transparent"></div>
+<button class="btn-trigger-rfq absolute bottom-3 right-3 bg-on-tertiary-container hover:bg-tertiary text-white hover:text-on-tertiary px-space-md py-space-xs rounded font-label-md text-label-md uppercase tracking-wider transition-colors flex items-center gap-1 shadow-md" type="button">
+<span>Inquire Bulk Lot</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 5: MANUFACTURING CAPABILITIES SECTION (#manufacturing) -->
+<section class="w-full bg-background px-margin-mobile lg:px-margin-desktop py-space-xl" id="manufacturing">
+<div class="max-w-6xl mx-auto flex flex-col gap-space-xl">
+<!-- Section Header -->
+<div class="flex flex-col gap-space-xs max-w-3xl">
+<div class="flex items-center gap-space-xs font-label-caps text-label-caps uppercase tracking-widest text-on-tertiary-container">
+<span class="w-1.5 h-1.5 rounded-full bg-on-tertiary-container"></span>
+<span>OUR MANUFACTURING CAPABILITIES</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl text-on-surface uppercase leading-tight">
+          ENGINEERING QUALITY. DELIVERING RELIABILITY.
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Kalika Industries operates advanced manufacturing facilities dedicated to high-specification corrugated fiber-cement building components. By utilizing continuous slurry homogenization and controlled steam curing, each panel provides uncompromised structural integrity for modern industrial installations.
+        </p>
+</div>
+<!-- 4-Step Production Line Visual Sequence -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Step 1 -->
+<div class="relative bg-surface-container p-space-lg rounded-xl shadow-md flex flex-col gap-space-sm border-t-2 border-outline-variant/30">
+<div class="flex items-center justify-between">
+<span class="font-headline-xl text-headline-xl text-primary font-bold">01</span>
+<span class="w-8 h-8 rounded-full bg-surface-container-high flex items-center justify-center text-tertiary-fixed">
+<span class="material-symbols-outlined text-[18px]">blender</span>
+</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase">Raw Material Prep &amp; Slurry Homogenization</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Selected mineral fibers, Portland cement, and silica aggregates are measured via digital load cells and uniformly dispersed in high-velocity mixers.</p>
+<span class="font-code-spec text-code-spec text-on-surface-variant mt-auto">Stage: Automated Wet End</span>
+</div>
+<!-- Step 2 -->
+<div class="relative bg-surface-container p-space-lg rounded-xl shadow-md flex flex-col gap-space-sm border-t-2 border-outline-variant/30">
+<div class="flex items-center justify-between">
+<span class="font-headline-xl text-headline-xl text-primary font-bold">02</span>
+<span class="w-8 h-8 rounded-full bg-surface-container-high flex items-center justify-center text-tertiary-fixed">
+<span class="material-symbols-outlined text-[18px]">reorder</span>
+</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase">Sheet Forming &amp; Corrugation Mold</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">De-watered laminates are drawn over continuous vacuum mandrels and guided through calibrated corrugation templates for uniform wave pitch.</p>
+<span class="font-code-spec text-code-spec text-on-surface-variant mt-auto">Stage: Roll Geometry Mold</span>
+</div>
+<!-- Step 3 -->
+<div class="relative bg-surface-container p-space-lg rounded-xl shadow-md flex flex-col gap-space-sm border-t-2 border-on-tertiary-container">
+<div class="flex items-center justify-between">
+<span class="font-headline-xl text-headline-xl text-tertiary-fixed font-bold">03</span>
+<span class="w-8 h-8 rounded-full bg-on-tertiary-container text-white flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]">humidity_mid</span>
+</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase">Controlled Curing &amp; Stabilization</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Green sheets are stacked into micro-climate autoclaves and saturated curing yards for hydration, eliminating internal shrinkage cracks.</p>
+<span class="font-code-spec text-code-spec text-tertiary-fixed-dim mt-auto">Stage: Hydration Chambers</span>
+</div>
+<!-- Step 4 -->
+<div class="relative bg-surface-container p-space-lg rounded-xl shadow-md flex flex-col gap-space-sm border-t-2 border-outline-variant/30">
+<div class="flex items-center justify-between">
+<span class="font-headline-xl text-headline-xl text-primary font-bold">04</span>
+<span class="w-8 h-8 rounded-full bg-surface-container-high flex items-center justify-center text-tertiary-fixed">
+<span class="material-symbols-outlined text-[18px]">verified_user</span>
+</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase">Dimension Inspection &amp; Palletizing</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Every production cycle undergoes flexural bending break analysis, 24-hr water impermeability tests, edge trim rectification, and barcode batching.</p>
+<span class="font-code-spec text-code-spec text-on-surface-variant mt-auto">Stage: QA Verification &amp; Dispatch</span>
+</div>
+</div>
+<!-- Facility Photographic Strip -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<div class="h-64 rounded-xl overflow-hidden relative group">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Modern corrugated cement sheet industrial manufacturing line with automated forming rollers and precision conveyor belts in clean production hall" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBMmpdRRt5iUZZHSw-Y0a4zEGICcjPD4ytknVIXootEPRNZWxTmea5M2YF9qIB__pyEYe75YB-OtTdr4SvOqv0Il1ZoWE4lguR32E_bfDbSPK5AUvvZrnCMJdw1WuAwjEPS6FCBl_vhjS8Ml0GESALTWG_ord9SK9WcGohUbR4bkvfdsKzVbJIcp646mtT-EsYGV-iwqrm7wEu6aBAi-760uLgsHQk97miiXFNoIz0"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim/90 via-surface-dim/40 to-transparent p-space-md flex flex-col justify-end">
+<span class="font-label-caps text-label-caps uppercase text-tertiary-fixed">Plant Infrastructure</span>
+<h4 class="font-headline-md text-headline-md text-on-surface uppercase">Continuous Roll Corrugation Line</h4>
+</div>
+</div>
+<div class="h-64 rounded-xl overflow-hidden relative group">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Spacious industrial yard showing thousands of precisely cured corrugated roofing panels stacked ready for heavy truck logistics dispatch" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBggF-oKGTxXtGelIMF6DleeVS64BqOoO7Y2rs-VRajGx5nzyvhpgzdUG4SwmOmhf6ICcHDYUxKQdJZjs0iuoNsbYFE9dm22WpF7CyVbXexu0D0eDKXBiaaIFHTT9Y_VTpVxgiKsQ00VOMQ-OH_5_1ILY7T9m_8c_8V7zt9Uqce2z4-0PzbfxCyMHQGmwtc5cwiEZ5CXI-OCeEwcPo_VhS6zgzujXg_3EBWPbvDnxQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim/90 via-surface-dim/40 to-transparent p-space-md flex flex-col justify-end">
+<span class="font-label-caps text-label-caps uppercase text-tertiary-fixed">Logistics Yard</span>
+<h4 class="font-headline-md text-headline-md text-on-surface uppercase">Automated Pallet Staging &amp; Fast Dispatch</h4>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 6: WHY CHOOSE KALIKA (#why-us) -->
+<section class="w-full bg-primary-container px-margin-mobile lg:px-margin-desktop py-space-xl relative overflow-hidden" id="why-us">
+<!-- Ambient Copper Glow -->
+<div class="absolute bottom-0 right-0 w-[500px] h-[500px] bg-on-tertiary-container/10 rounded-full blur-3xl pointer-events-none"></div>
+<div class="max-w-6xl mx-auto flex flex-col gap-space-xl relative z-10">
+<!-- Section Header -->
+<div class="flex flex-col gap-space-xs max-w-2xl">
+<div class="flex items-center gap-space-xs font-label-caps text-label-caps uppercase tracking-widest text-tertiary-fixed">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary-fixed"></span>
+<span>THE INDUSTRIAL EDGE</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl text-on-surface uppercase leading-tight">
+          WHY BUILDERS CHOOSE KALIKA.
+        </h2>
+<p class="font-body-md text-body-md text-secondary">
+          Decades of metallurgical discipline, unified trading networks, and dependable manufacturing ensure your development milestones run on schedule and within budget.
+        </p>
+</div>
+<!-- 4 Feature Blocks -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter-lg">
+<!-- Feature 1 -->
+<div class="bg-surface-container-high/60 backdrop-blur-md p-space-lg rounded-xl flex items-start gap-space-md shadow-lg border-l-2 border-on-tertiary-container">
+<div class="w-14 h-14 rounded-lg bg-surface-container flex items-center justify-center text-tertiary-fixed shrink-0">
+<span class="material-symbols-outlined text-[32px]">dataset</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase">Diverse Product Portfolio</h3>
+<p class="font-body-sm text-body-sm text-secondary">Single-source procurement simplifying supply contracts. Procure your foundation rebar, structural framing, cement roofing sheets, plumbing, and hardware from one unified entity.</p>
+</div>
+</div>
+<!-- Feature 2 -->
+<div class="bg-surface-container-high/60 backdrop-blur-md p-space-lg rounded-xl flex items-start gap-space-md shadow-lg border-l-2 border-outline-variant">
+<div class="w-14 h-14 rounded-lg bg-surface-container flex items-center justify-center text-tertiary-fixed shrink-0">
+<span class="material-symbols-outlined text-[32px]">policy</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase">Quality-Focused Approach</h3>
+<p class="font-body-sm text-body-sm text-secondary">Zero compromise on metallurgical tolerance. We provide comprehensive mill test certificates (MTC) verifying yield tensile strength, elongation ratio, and chemical composition.</p>
+</div>
+</div>
+<!-- Feature 3 -->
+<div class="bg-surface-container-high/60 backdrop-blur-md p-space-lg rounded-xl flex items-start gap-space-md shadow-lg border-l-2 border-outline-variant">
+<div class="w-14 h-14 rounded-lg bg-surface-container flex items-center justify-center text-tertiary-fixed shrink-0">
+<span class="material-symbols-outlined text-[32px]">precision_manufacturing</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase">In-House Manufacturing</h3>
+<p class="font-body-sm text-body-sm text-secondary">Direct plant-to-site supply of corrugated cement roofing panels by Kalika Industries eliminates intermediary distributor markups and guarantees rapid project dispatch.</p>
+</div>
+</div>
+<!-- Feature 4 -->
+<div class="bg-surface-container-high/60 backdrop-blur-md p-space-lg rounded-xl flex items-start gap-space-md shadow-lg border-l-2 border-on-tertiary-container">
+<div class="w-14 h-14 rounded-lg bg-surface-container flex items-center justify-center text-tertiary-fixed shrink-0">
+<span class="material-symbols-outlined text-[32px]">support_agent</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase">Reliable Customer Support</h3>
+<p class="font-body-sm text-body-sm text-secondary">Dedicated commercial relationship desk, swift quotation turnaround within 3 hours, customized staging logistics, and transparent digital billing documentation.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 7: OUR BRANDS & PARTNERS (#brands) -->
+<section class="w-full bg-surface-container-lowest px-margin-mobile lg:px-margin-desktop py-space-xl" id="brands">
+<div class="max-w-6xl mx-auto flex flex-col gap-space-xl text-center">
+<!-- Section Header -->
+<div class="flex flex-col items-center gap-space-xs max-w-2xl mx-auto">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-on-tertiary-container">INDUSTRY ALLIANCES</span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface uppercase">BRANDS &amp; PRODUCT PARTNERS</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Associated with premier manufacturing houses and national infrastructure suppliers across India.</p>
+</div>
+<!-- Sleek Partner Cards Grid (No trademark infringements) -->
+<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-gutter-sm">
+<div class="bg-surface-container p-space-md rounded-xl shadow-md flex flex-col items-center justify-center gap-space-xs hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-[32px] text-tertiary-fixed">architecture</span>
+<span class="font-headline-md text-[18px] text-on-surface uppercase">PRIMARY STEEL</span>
+<span class="font-code-spec text-[10px] text-on-surface-variant uppercase">TMT Mills Network</span>
+</div>
+<div class="bg-surface-container p-space-md rounded-xl shadow-md flex flex-col items-center justify-center gap-space-xs hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-[32px] text-tertiary-fixed">factory</span>
+<span class="font-headline-md text-[18px] text-on-surface uppercase">CEMENT CORP</span>
+<span class="font-code-spec text-[10px] text-on-surface-variant uppercase">OPC / PPC Associates</span>
+</div>
+<div class="bg-surface-container p-space-md rounded-xl shadow-md flex flex-col items-center justify-center gap-space-xs hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-[32px] text-tertiary-fixed">waves</span>
+<span class="font-headline-md text-[18px] text-on-surface uppercase">ROOFING TECH</span>
+<span class="font-code-spec text-[10px] text-on-surface-variant uppercase">Kalika Industries</span>
+</div>
+<div class="bg-surface-container p-space-md rounded-xl shadow-md flex flex-col items-center justify-center gap-space-xs hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-[32px] text-tertiary-fixed">water_drop</span>
+<span class="font-headline-md text-[18px] text-on-surface uppercase">FLUID SYSTEMS</span>
+<span class="font-code-spec text-[10px] text-on-surface-variant uppercase">CPVC &amp; UPVC Tech</span>
+</div>
+<div class="bg-surface-container p-space-md rounded-xl shadow-md flex flex-col items-center justify-center gap-space-xs hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-[32px] text-tertiary-fixed">brush</span>
+<span class="font-headline-md text-[18px] text-on-surface uppercase">POLYMER COAT</span>
+<span class="font-code-spec text-[10px] text-on-surface-variant uppercase">Weather Armor Paints</span>
+</div>
+<div class="bg-surface-container p-space-md rounded-xl shadow-md flex flex-col items-center justify-center gap-space-xs hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-[32px] text-tertiary-fixed">carpenter</span>
+<span class="font-headline-md text-[18px] text-on-surface uppercase">TIMBER PANEL</span>
+<span class="font-code-spec text-[10px] text-on-surface-variant uppercase">Marine BWR Panels</span>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 8: PROJECT & PRODUCT GALLERY (#gallery) -->
+<section class="w-full bg-background px-margin-mobile lg:px-margin-desktop py-space-xl" id="gallery">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-xl">
+<!-- Section Header & Filter Controls -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs max-w-2xl">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-on-tertiary-container">OPERATIONAL PROOF</span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface uppercase leading-tight">YARD &amp; MANUFACTURING GALLERY</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Live visual documentation from our central logistics yards and manufacturing production floors.</p>
+</div>
+<div class="flex flex-wrap gap-space-xs bg-surface-container p-1 rounded-lg">
+<button class="gallery-tab-btn px-space-md py-space-xs font-label-md text-label-md uppercase tracking-wider rounded-lg bg-on-tertiary-container text-white transition-colors" data-gallery-tab="all" type="button">All Visuals</button>
+<button class="gallery-tab-btn px-space-md py-space-xs font-label-md text-label-md uppercase tracking-wider rounded-lg text-on-surface-variant hover:text-on-surface transition-colors" data-gallery-tab="steel" type="button">Steel Yard</button>
+<button class="gallery-tab-btn px-space-md py-space-xs font-label-md text-label-md uppercase tracking-wider rounded-lg text-on-surface-variant hover:text-on-surface transition-colors" data-gallery-tab="sheets" type="button">Cement Roofing</button>
+<button class="gallery-tab-btn px-space-md py-space-xs font-label-md text-label-md uppercase tracking-wider rounded-lg text-on-surface-variant hover:text-on-surface transition-colors" data-gallery-tab="facility" type="button">Plant &amp; Hardware</button>
+</div>
+</div>
+<!-- Image Grid with Parallax Depth Reaction -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-gutter" id="galleryContainer">
+<!-- Item 1: Steel Bundles -->
+<div class="gallery-item group relative h-72 rounded-xl overflow-hidden shadow-lg cursor-pointer" data-category="steel" onclick="openLightbox('https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&amp;fit=crop&amp;w=1200&amp;q=80', 'Structural TMT Rebar Bundles', 'Pre-weighed Fe 500D bar bundles loaded on dispatch trailers.')">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="Bundled industrial steel rebar strapped with precision metal tags resting in outdoor staging logistics yard under morning sunlight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCNYxbUiP3rlfSQ5fnU-23MnP-aCKblfTw6ofKisyDUipRMaciI6CPcN-o5YWfRm5J8FwU4epcu-9j4CaG6YmCBLt5mvpuJ_TtxrhbOhZWTf9T2WP0CbMGbuTo2mhV58Nz1Z7BswXij8iwAMAe3cHJoaKlvz3BUPNgHUQ2TwFoyPd8EdHmjpT_WdDo06vYDb3CVpv3PXpLZqLltuyqlIOIdiTc3XtD6gtpRUHHx3zQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim/90 via-surface-dim/20 to-transparent p-space-md flex flex-col justify-end">
+<span class="font-code-spec text-[11px] text-tertiary-fixed uppercase">Kalika Steel Traders Yard</span>
+<h4 class="font-headline-md text-headline-md text-on-surface uppercase">Reinforcement Bar Stocking</h4>
+</div>
+</div>
+<!-- Item 2: Cement Sheets -->
+<div class="gallery-item group relative h-72 rounded-xl overflow-hidden shadow-lg cursor-pointer" data-category="sheets" onclick="openLightbox('https://images.unsplash.com/photo-1541888946425-d0fbb1862558?auto=format&amp;fit=crop&amp;w=1200&amp;q=80', 'Corrugated Cement Sheet Staging', 'Standard 3.0m and 3.6m corrugated panels undergoing final curing.')">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="High density corrugated fiber cement sheets stacked symmetrically in open air factory curing yard with industrial plant sheds in the background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB4mea0qNfRMFGXCCW_iNgiDQjbWzMHCZ9S9kb83QY5BiiJ-eXLkiLgpPUMJULUI733xU9Imp102XManWfqJJYoXlBrfQMi7sUgD31JprO-8YabjnoXEeoaWA8Ykof5A2UdpDT6fn99sUDIaTvH4fMePoz00XjsEqnaeYYWn9NBPSXCoXzwc1tQlO1017hsrSs4Kk_BGDihYOZkywNA_Z0vuoea8b1hYb6WGO6hcu8"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim/90 via-surface-dim/20 to-transparent p-space-md flex flex-col justify-end">
+<span class="font-code-spec text-[11px] text-tertiary-fixed uppercase">Kalika Industries Plant</span>
+<h4 class="font-headline-md text-headline-md text-on-surface uppercase">Corrugated Sheet Yard</h4>
+</div>
+</div>
+<!-- Item 3: Manufacturing Machinery -->
+<div class="gallery-item group relative h-72 rounded-xl overflow-hidden shadow-lg cursor-pointer" data-category="facility" onclick="openLightbox('https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&amp;fit=crop&amp;w=1200&amp;q=80', 'Automated Slurry Forming Rollers', 'Continuous vacuum dehydration line in operation.')">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="Heavy industrial machinery and steel roll rollers forming wet fiber cement sheets on high capacity automated conveyor manufacturing system" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD_rOCm0YkH29dLHUaXFdvhjhLxOGMVb69mqEWPk7J7d5WDakHraeld-K972lucZn_GnMTiOEbNDjzBXhVnJROtYz2i4_VgXsun8IfXiiQPMyo61d5Gc2oqkDqo5Q-tPOY6zCiTDYuU1rPZOcuPRwJDyl4vSvYo6xo0JrLGYCcz75UdmYWh3kj3XvXTApuHCf-DH1bwR1o7XdpWF4OkCMCW_zzyi4tczAP0BRSYX3s"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim/90 via-surface-dim/20 to-transparent p-space-md flex flex-col justify-end">
+<span class="font-code-spec text-[11px] text-tertiary-fixed uppercase">Manufacturing Technology</span>
+<h4 class="font-headline-md text-headline-md text-on-surface uppercase">Continuous Roll Corrugation</h4>
+</div>
+</div>
+<!-- Item 4: Plumbing Storage -->
+<div class="gallery-item group relative h-72 rounded-xl overflow-hidden shadow-lg cursor-pointer" data-category="facility" onclick="openLightbox('https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&amp;fit=crop&amp;w=1200&amp;q=80', 'Engineered Fluid Pipeline Staging', 'Industrial pressure pipes and drainage fittings organized in warehouse racks.')">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="Organized vertical racks of industrial grade CPVC plumbing conduits and UPVC pipes inside high ceiling distribution warehouse" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBX8vi4Lwa8kxrAeiwu2eRDXhnUerighRgt_KY8ThpTvQXayONRsKPgMzHwVGHcQJ37aMiwnAGjCRWn0h-xE1IIlZcPIMcQZikiR66inDdWAGgoAiUKxiJ4RWX0LALJnJVTvr071zPf2SERAAQwUKzLD-CnDIdr6IpfAPNPaNFYVQnSfBM-IXU4QPv7KoksXA5OSJxaCMHArENzsHfMChItP3KT7Vezn0DmLFGN8r0"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim/90 via-surface-dim/20 to-transparent p-space-md flex flex-col justify-end">
+<span class="font-code-spec text-[11px] text-tertiary-fixed uppercase">Distribution Logistics</span>
+<h4 class="font-headline-md text-headline-md text-on-surface uppercase">Plumbing &amp; Valve Warehouse</h4>
+</div>
+</div>
+<!-- Item 5: Plywood & Shuttering -->
+<div class="gallery-item group relative h-72 rounded-xl overflow-hidden shadow-lg cursor-pointer" data-category="facility" onclick="openLightbox('https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&amp;fit=crop&amp;w=1200&amp;q=80', 'BWR Marine &amp; Shuttering Boards', 'Calibrated phenolic film shuttering panels staged for high-rise formwork.')">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="Piles of dark brown film faced shuttering plywood panels and marine plywood sheets with cleanly stamped edges in clean warehouse aisle" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC2LJO2E0iqbD3TtDVARygOY5ARJ-OAcKZNWt6RqN4-XXLXU3_4lmS53HJZXHKwiGhgn-bs0VgQtExvk7usQSASQGsD5VB9Oe_I54jtWwrEB-FvXcKLqZGpANdNskKyHrsPMVs2AmIGQa0BAtPRvWgNYsaI49S3yRgpUKJ6sjq8nMyJgdfwpCGvIKil-WjAzaGoLZJitXe8nY-N1iKM0OvBEh74p5uwT9scjbJ8LEA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim/90 via-surface-dim/20 to-transparent p-space-md flex flex-col justify-end">
+<span class="font-code-spec text-[11px] text-tertiary-fixed uppercase">Building Materials Hub</span>
+<h4 class="font-headline-md text-headline-md text-on-surface uppercase">Plywood &amp; Shuttering Panels</h4>
+</div>
+</div>
+<!-- Item 6: Structural Steel Beams -->
+<div class="gallery-item group relative h-72 rounded-xl overflow-hidden shadow-lg cursor-pointer" data-category="steel" onclick="openLightbox('https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&amp;fit=crop&amp;w=1200&amp;q=80', 'Heavy MS Beams &amp; Channels', 'Heavy structural angles and universal columns for commercial framing.')">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="Heavy steel MS channels beams and structural joists stacked systematically in an outdoor heavy fabrication stocking yard with industrial cranes overhead" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_JBQPl2jQRtGUbww0A5F5Aqw2Q4UYMtrgAJrA73Y-twrpUyAh-XWc-ZP6UmY8iCdKdYvx-39paZ34jU79YBAKeRlqXDc6ecCnVJ9wOhioDw8bUC4x9K4IJvMUOmFJw7Vso9ApPGlSqp-VnaBOdkmXj_MW746qQUfGmohMj5YkRiJFp620VPhZ4rza5JgXO9-mbkisonVPyGiCaS4uCmo5bq0xPWB6RpcLGuZaKGk"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim/90 via-surface-dim/20 to-transparent p-space-md flex flex-col justify-end">
+<span class="font-code-spec text-[11px] text-tertiary-fixed uppercase">Heavy Fabrication Yard</span>
+<h4 class="font-headline-md text-headline-md text-on-surface uppercase">Structural MS Beams &amp; Angles</h4>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Modal: Lightbox Viewer -->
+<div class="fixed inset-0 z-50 hidden bg-surface-dim/95 backdrop-blur-xl flex flex-col items-center justify-center p-margin-mobile" id="lightboxModal">
+<button class="absolute top-6 right-6 w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-on-surface hover:text-tertiary-fixed transition-colors" id="closeLightboxBtn" type="button">
+<span class="material-symbols-outlined text-[24px]">close</span>
+</button>
+<div class="max-w-4xl w-full flex flex-col items-center gap-space-md">
+<div class="max-h-[716px] rounded-xl overflow-hidden shadow-2xl bg-surface-container">
+<img class="w-full h-full object-contain" data-alt="Expanded high resolution architectural view of industrial manufacturing facilities and materials stock" id="lightboxImage" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD_PFrX8FwMZ_IH9Wav_9jZSf5fgPelqU-LNVijBbIFlJbYw90cDxNX8hniE9vFNvXYNNZHQJnV726XgxtSCPT_AWPLCxp8iWu09paXzb2UFU9SyZeUewqU7l2yvJsa2pylqVM49dazaCEdIRQqpZH-iilBPai1dgoWmpopW1-mLSCwK_WVFaAI1Jh9xHJbJNy78sXLSUw3rAlvAU7KC5OpnWSZMvX6QguE9uReUJs"/>
+</div>
+<div class="text-center flex flex-col gap-1">
+<h4 class="font-headline-md text-headline-md text-on-surface uppercase" id="lightboxTitle"></h4>
+<p class="font-body-sm text-body-sm text-secondary" id="lightboxCaption"></p>
+</div>
+</div>
+</div>
+<!-- SECTION 9: CALL TO ACTION SECTION -->
+<section class="w-full bg-surface-container-low px-margin-mobile lg:px-margin-desktop py-space-xl">
+<div class="max-w-6xl mx-auto bg-primary-container rounded-2xl p-space-lg md:p-space-xl shadow-2xl relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-space-lg">
+<div class="relative z-10 max-w-xl flex flex-col gap-space-sm">
+<div class="flex items-center gap-space-xs font-label-caps text-label-caps uppercase tracking-widest text-tertiary-fixed">
+<span class="w-2 h-2 rounded-full bg-on-tertiary-container animate-ping"></span>
+<span>ESTIMATION &amp; TENDER SUPPORT</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl text-on-surface uppercase leading-none">
+          PLANNING YOUR NEXT INFRASTRUCTURE PROJECT?
+        </h2>
+<p class="font-body-md text-body-md text-secondary">
+          Connect directly with our corporate sales and technical desk for prompt delivery logistics, customized bulk tonnage schedules, and official BOQ material breakdowns.
+        </p>
+</div>
+<div class="relative z-10 flex flex-col sm:flex-row items-center gap-space-md shrink-0 w-full sm:w-auto">
+<button class="btn-trigger-rfq w-full sm:w-auto bg-on-tertiary-container hover:bg-tertiary text-white hover:text-on-tertiary px-space-lg py-space-md rounded-lg font-label-md text-label-md uppercase tracking-wider font-semibold transition-all shadow-[0_4px_20px_rgba(201,107,43,0.4)] flex items-center justify-center gap-space-xs" type="button">
+<span class="material-symbols-outlined text-[18px]">request_quote</span>
+<span>GET A QUOTE</span>
+</button>
+<a class="w-full sm:w-auto bg-surface-container-high/80 hover:bg-surface-container text-on-surface px-space-lg py-space-md rounded-lg font-label-md text-label-md uppercase tracking-wider font-semibold transition-all flex items-center justify-center gap-space-xs shadow-md" href="https://wa.me/91800525452?text=Hello%20Kalika%20Steel%20Traders%20team,%20I%20would%20like%20to%20inquire%20about%20building%20materials." rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-tertiary-fixed text-[18px]">chat</span>
+<span>DIRECT WHATSAPP DESK</span>
+</a>
+</div>
+<!-- Background Technical Watermark -->
+<span class="absolute -right-8 -bottom-10 font-headline-xl text-[140px] text-surface-container-high/20 select-none uppercase pointer-events-none font-bold">KALIKA</span>
+</div>
+</section>
+<!-- SECTION 10: CONTACT & RFQ SECTION (#contact) -->
+<section class="w-full bg-background px-margin-mobile lg:px-margin-desktop py-space-xl" id="contact">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-xl">
+<!-- Section Header -->
+<div class="flex flex-col gap-space-xs max-w-2xl">
+<div class="flex items-center gap-space-xs font-label-caps text-label-caps uppercase tracking-widest text-on-tertiary-container">
+<span class="w-1.5 h-1.5 rounded-full bg-on-tertiary-container"></span>
+<span>COMMERCIAL INQUIRY</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl text-on-surface uppercase leading-tight">
+          CONNECT WITH OUR LOGISTICS DESK.
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Reach out for price inquiries, regional yard distributions, or visit our central corporate hub.
+        </p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-lg">
+<!-- Left Column: Details & Google Map Location Mockup -->
+<div class="lg:col-span-5 flex flex-col gap-space-lg">
+<div class="bg-surface-container p-space-lg rounded-xl shadow-lg flex flex-col gap-space-md">
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase">Corporate &amp; Plant Information</h3>
+<div class="space-y-space-md text-body-sm font-body-sm text-on-surface-variant">
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-tertiary-fixed text-[20px] shrink-0 mt-0.5">location_on</span>
+<div>
+<strong class="text-on-surface block font-headline-md text-[16px] uppercase">Central Yard &amp; Registered Plant</strong>
+<span>Plot No. 42-45, Phase II, Industrial Manufacturing Corridor, Highway Junction, Maharashtra / India</span>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-tertiary-fixed text-[20px] shrink-0 mt-0.5">call</span>
+<div>
+<strong class="text-on-surface block font-headline-md text-[16px] uppercase">Direct Dispatch Lines</strong>
+<span>+91 (0) 800-KALIKA-STEEL / +91 (0) 800-525-452</span>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-tertiary-fixed text-[20px] shrink-0 mt-0.5">mail</span>
+<div>
+<strong class="text-on-surface block font-headline-md text-[16px] uppercase">Corporate Procurement</strong>
+<span>procurement@kalikasteel.com / sales@kalikaindustries.com</span>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-tertiary-fixed text-[20px] shrink-0 mt-0.5">schedule</span>
+<div>
+<strong class="text-on-surface block font-headline-md text-[16px] uppercase">Commercial Hours</strong>
+<span>Monday - Saturday: 9:00 AM – 7:30 PM (Dispatches active 24/7)</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Stylized Google Map Container Pipeline Mockup -->
+<div class="w-full h-64 bg-surface-container rounded-xl overflow-hidden shadow-lg relative flex items-center justify-center" data-location="Kalika Steel Traders Industrial Area Maharashtra India" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDWIhxFAuA4KHrIZHs9e1U177sPNluawj7gQkQPAgBhgHsS_1qqzhje87yc3EGwuXN9vBaLYJeMho3W9fdSfp6hFifcYEKm-Bhm6qGxKjfdQGPSbKik12tVbkuVXFR2pKii7S-dHoP_2bawOkdjOxCbEHQStSf10NhDd4nGyhurvxVWAwE0t5AsU6Nr4gYOJelJwBUIQW0a34EyG1r5MSZtc3oJw8atwRhm1eWdCCI')">
+<div class="absolute inset-0 bg-primary-container/85 backdrop-blur-[2px] flex flex-col items-center justify-center p-space-md text-center">
+<div class="w-12 h-12 rounded-full bg-on-tertiary-container text-white flex items-center justify-center mb-space-xs shadow-lg animate-bounce">
+<span class="material-symbols-outlined text-[24px]">pin_drop</span>
+</div>
+<h4 class="font-headline-md text-headline-md text-on-surface uppercase">Central Plant &amp; Stock Yards</h4>
+<p class="font-code-spec text-code-spec text-secondary max-w-xs">Industrial Highway Corridor • Direct Weighbridge Staging</p>
+<span class="mt-space-sm px-space-sm py-1 bg-surface-container-high rounded text-tertiary-fixed font-code-spec text-[11px]">COORDINATES: 18.5204° N, 73.8567° E</span>
+</div>
+</div>
+</div>
+<!-- Right Column: Interactive RFQ Enquiry Form -->
+<div class="lg:col-span-7 bg-surface-container p-space-lg md:p-space-xl rounded-xl shadow-lg flex flex-col justify-between">
+<div class="flex flex-col gap-space-xs pb-space-md border-b border-outline-variant/30">
+<span class="font-label-caps text-label-caps uppercase text-on-tertiary-container tracking-widest">TRANSPARENT PROCUREMENT</span>
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase">Commercial Tender &amp; Material RFQ</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Fill in the technical parameters below. Our pricing analysts respond with detailed schedule quotes.</p>
+</div>
+<form class="flex flex-col gap-space-md pt-space-md" id="contactPageRfqForm">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-caps text-label-caps uppercase text-on-surface-variant">Contact Person / Engineer Name *</label>
+<input class="bg-surface-container-low px-space-md py-space-sm text-on-surface placeholder:text-outline text-body-sm font-body-sm rounded-lg outline-none focus:ring-1 focus:ring-on-tertiary-container" placeholder="Rajesh Mehta (Chief Engineer)" required="" type="text"/>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-caps text-label-caps uppercase text-on-surface-variant">Mobile Phone Number (+91) *</label>
+<input class="bg-surface-container-low px-space-md py-space-sm text-on-surface placeholder:text-outline text-body-sm font-body-sm rounded-lg outline-none focus:ring-1 focus:ring-on-tertiary-container" pattern="[0-9]{10}" placeholder="9890XXXXXX" required="" type="tel"/>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-caps text-label-caps uppercase text-on-surface-variant">Email Address *</label>
+<input class="bg-surface-container-low px-space-md py-space-sm text-on-surface placeholder:text-outline text-body-sm font-body-sm rounded-lg outline-none focus:ring-1 focus:ring-on-tertiary-container" placeholder="commercial@developer.com" required="" type="email"/>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-caps text-label-caps uppercase text-on-surface-variant">Primary Product Category *</label>
+<select class="bg-surface-container-low px-space-md py-space-sm text-on-surface text-body-sm font-body-sm rounded-lg outline-none focus:ring-1 focus:ring-on-tertiary-container" required="">
+<option value="Steel &amp; TMT Bars">Fe 500D / 550D TMT Reinforcement Steel</option>
+<option value="Cement Sheets">Corrugated Cement Sheets (Kalika Industries)</option>
+<option value="Cement &amp; Blocks">OPC / PPC Cement &amp; AAC Lightweight Blocks</option>
+<option value="Plumbing">CPVC / UPVC Heavy Industrial Plumbing</option>
+<option value="Plywood">BWR Marine &amp; Shuttering Panels</option>
+<option value="Paints">Anti-Corrosive Coatings &amp; Weather Emulsions</option>
+<option value="Hardware">Structural Fasteners &amp; Hardware</option>
+</select>
+</div>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-caps text-label-caps uppercase text-on-surface-variant">Estimated Quantity &amp; Unloading Location *</label>
+<input class="bg-surface-container-low px-space-md py-space-sm text-on-surface placeholder:text-outline text-body-sm font-body-sm rounded-lg outline-none focus:ring-1 focus:ring-on-tertiary-container" placeholder="e.g. 120 Tonnes Fe 500D Rebar + 800 Roofing Sheets delivered to Chakan Site" required="" type="text"/>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-caps text-label-caps uppercase text-on-surface-variant">Project Scope / Technical Rebar Schedule Notes</label>
+<textarea class="bg-surface-container-low px-space-md py-space-sm text-on-surface placeholder:text-outline text-body-sm font-body-sm rounded-lg outline-none focus:ring-1 focus:ring-on-tertiary-container resize-none" placeholder="Detail any specific brand preferences, required cutting length, test certificates (MTC)..." rows="4"></textarea>
+</div>
+<div class="pt-space-xs flex flex-col sm:flex-row items-center justify-between gap-space-md">
+<span class="font-code-spec text-code-spec text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-tertiary-fixed">shield</span>
+<span>GSTIN Verification provided on all quotes</span>
+</span>
+<button class="w-full sm:w-auto bg-on-tertiary-container hover:bg-tertiary text-white hover:text-on-tertiary px-space-xl py-space-sm rounded-lg font-label-md text-label-md uppercase tracking-wider font-semibold transition-all shadow-[0_4px_16px_rgba(201,107,43,0.35)] flex items-center justify-center gap-space-xs" type="submit">
+<span>SUBMIT RFQ INQUIRY</span>
+<span class="material-symbols-outlined text-[18px]">send</span>
+</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Logic Script -->
+<script>
+    (function initClientApp() {
+      // Toast notification helper
+      function showToast(message, isSuccess = true) {
+        const toast = document.getElementById('toastNotification');
+        const msgElem = document.getElementById('toastMessage');
+        const iconElem = document.getElementById('toastIcon');
+        if (!toast || !msgElem) return;
+
+        msgElem.textContent = message;
+        iconElem.textContent = isSuccess ? 'check_circle' : 'info';
+        toast.classList.remove('translate-y-32', 'opacity-0');
+        toast.classList.add('translate-y-0', 'opacity-100');
+
+        setTimeout(() => {
+          toast.classList.add('translate-y-32', 'opacity-0');
+          toast.classList.remove('translate-y-0', 'opacity-100');
+        }, 4000);
+      }
+
+      // RFQ Modal controls
+      const rfqModal = document.getElementById('rfqModal');
+      const closeRfqModalBtn = document.getElementById('closeRfqModalBtn');
+      const rfqTriggers = document.querySelectorAll('.btn-trigger-rfq');
+
+      rfqTriggers.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.preventDefault();
+          if (rfqModal) rfqModal.classList.remove('hidden');
+        });
+      });
+
+      if (closeRfqModalBtn) {
+        closeRfqModalBtn.addEventListener('click', () => {
+          if (rfqModal) rfqModal.classList.add('hidden');
+        });
+      }
+
+      if (rfqModal) {
+        rfqModal.addEventListener('click', (e) => {
+          if (e.target === rfqModal) rfqModal.classList.add('hidden');
+        });
+      }
+
+      // Forms Submission Simulation
+      const modalForm = document.getElementById('modalRfqForm');
+      if (modalForm) {
+        modalForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+          modalForm.reset();
+          if (rfqModal) rfqModal.classList.add('hidden');
+          showToast('RFQ Transmitted! Quotation dispatched to your email.');
+        });
+      }
+
+      const contactForm = document.getElementById('contactPageRfqForm');
+      if (contactForm) {
+        contactForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+          contactForm.reset();
+          showToast('Inquiry Received! Our commercial desk will call you shortly.');
+        });
+      }
+
+      // Division Interactive Toggle in About Section
+      const btnTrade = document.getElementById('btnDivisionTrade');
+      const btnMfg = document.getElementById('btnDivisionMfg');
+      const cardTrade = document.getElementById('divisionTradingCard');
+      const cardMfg = document.getElementById('divisionMfgCard');
+
+      if (btnTrade && btnMfg && cardTrade && cardMfg) {
+        btnTrade.addEventListener('click', () => {
+          btnTrade.classList.add('bg-on-tertiary-container', 'text-white');
+          btnTrade.classList.remove('text-on-surface-variant');
+          btnMfg.classList.remove('bg-on-tertiary-container', 'text-white');
+          btnMfg.classList.add('text-on-surface-variant');
+
+          cardTrade.classList.remove('hidden');
+          cardMfg.classList.add('hidden');
+        });
+
+        btnMfg.addEventListener('click', () => {
+          btnMfg.classList.add('bg-on-tertiary-container', 'text-white');
+          btnMfg.classList.remove('text-on-surface-variant');
+          btnTrade.classList.remove('bg-on-tertiary-container', 'text-white');
+          btnTrade.classList.add('text-on-surface-variant');
+
+          cardMfg.classList.remove('hidden');
+          cardTrade.classList.add('hidden');
+        });
+      }
+
+      // Products Filtering Tabs
+      const filterBtns = document.querySelectorAll('.product-filter-btn');
+      const productCards = document.querySelectorAll('.product-card');
+
+      filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const filter = btn.getAttribute('data-filter');
+          filterBtns.forEach(b => {
+            b.classList.remove('bg-on-tertiary-container', 'text-white');
+            b.classList.add('text-on-surface-variant');
+          });
+          btn.classList.add('bg-on-tertiary-container', 'text-white');
+          btn.classList.remove('text-on-surface-variant');
+
+          productCards.forEach(card => {
+            const cardCat = card.getAttribute('data-category');
+            if (filter === 'all' || cardCat === filter) {
+              card.classList.remove('hidden');
+            } else {
+              card.classList.add('hidden');
+            }
+          });
+        });
+      });
+
+      // Gallery Tabs Filter
+      const galleryTabs = document.querySelectorAll('.gallery-tab-btn');
+      const galleryItems = document.querySelectorAll('.gallery-item');
+
+      galleryTabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+          const target = tab.getAttribute('data-gallery-tab');
+          galleryTabs.forEach(t => {
+            t.classList.remove('bg-on-tertiary-container', 'text-white');
+            t.classList.add('text-on-surface-variant');
+          });
+          tab.classList.add('bg-on-tertiary-container', 'text-white');
+          tab.classList.remove('text-on-surface-variant');
+
+          galleryItems.forEach(item => {
+            const cat = item.getAttribute('data-category');
+            if (target === 'all' || cat === target) {
+              item.classList.remove('hidden');
+            } else {
+              item.classList.add('hidden');
+            }
+          });
+        });
+      });
+
+      // Lightbox Global Functionality
+      const lightboxModal = document.getElementById('lightboxModal');
+      const lightboxImg = document.getElementById('lightboxImage');
+      const lightboxTitle = document.getElementById('lightboxTitle');
+      const lightboxCaption = document.getElementById('lightboxCaption');
+      const closeLightboxBtn = document.getElementById('closeLightboxBtn');
+
+      window.openLightbox = function(url, title, caption) {
+        if (!lightboxModal) return;
+        lightboxImg.src = url;
+        lightboxImg.setAttribute('data-alt', title + ' - ' + caption);
+        lightboxTitle.textContent = title;
+        lightboxCaption.textContent = caption;
+        lightboxModal.classList.remove('hidden');
+      };
+
+      if (closeLightboxBtn) {
+        closeLightboxBtn.addEventListener('click', () => {
+          if (lightboxModal) lightboxModal.classList.add('hidden');
+        });
+      }
+
+      if (lightboxModal) {
+        lightboxModal.addEventListener('click', (e) => {
+          if (e.target === lightboxModal) lightboxModal.classList.add('hidden');
+        });
+      }
+
+      // 3D Product Interactive Simulation Modal
+      const product3dModal = document.getElementById('product3dModal');
+      const closeProduct3dBtn = document.getElementById('closeProduct3dBtn');
+      const btnsOpen3d = document.querySelectorAll('.btn-open-3d');
+      const cadSlider = document.getElementById('cadRotationSlider');
+      const rotatingMesh = document.getElementById('rotatingModelMesh');
+      const rotationAngleDisplay = document.getElementById('rotationAngleDisplay');
+      const modalOrderQuoteBtn = document.getElementById('modalOrderQuoteBtn');
+
+      // Product specific dataset
+      const product3dData = {
+        steel: {
+          title: "Fe 500D High Ductility TMT Bars",
+          dept: "Kalika Steel Traders",
+          cadRef: "IS: 1786 REINFORCEMENT SPEC",
+          desc: "Engineered thermo-mechanically treated reinforcement bars providing elevated tensile strength and cyclic fatigue resistance for high-rise infrastructure.",
+          spec1: "500 N/mm² (Min)",
+          spec2: "565 N/mm² (Tensile)",
+          spec3: "≥ 16.0% Total Elongation",
+          spec4: "IS 1786 / BIS 2012 Certified"
+        },
+        cement: {
+          title: "OPC 53 & AAC Wall Infrastructure",
+          dept: "Kalika Steel Traders",
+          cadRef: "IS: 12269 COMPRESSIVE SPEC",
+          desc: "Superior fineness ordinary portland cement paired with precision thermal autoclaved lightweight blocks.",
+          spec1: "53 MPa @ 28 Days",
+          spec2: "320 m²/kg Blaine Fineness",
+          spec3: "Dry Density: 550 - 650 kg/m³",
+          spec4: "IS 12269 & IS 2185-3 Standard"
+        },
+        sheets: {
+          title: "Corrugated Fiber Cement Sheets",
+          dept: "Kalika Industries",
+          cadRef: "IS: 459 CORRUGATED SPEC",
+          desc: "Engineered high-density corrugated panels designed for industrial warehouses, chemical plants, and all-weather roofing.",
+          spec1: "Flexural Load ≥ 5.25 kN",
+          spec2: "Thickness: 6.0 mm ± 0.5",
+          spec3: "Impermeability: Zero droplets @ 24h",
+          spec4: "IS 459 Class A / Fire Class 1"
+        },
+        plumbing: {
+          title: "High Pressure CPVC & UPVC Lines",
+          dept: "Kalika Steel Traders",
+          cadRef: "ASTM D2846 FLUID SPEC",
+          desc: "Precision hot and cold industrial fluid distribution systems with leak-proof brass threaded fittings.",
+          spec1: "Operating Temp: up to 93°C",
+          spec2: "Pressure Rating: 28.1 kg/cm²",
+          spec3: "SDR 11 & SDR 13.5 Series",
+          spec4: "NSF 61 Safe Potable Rated"
+        },
+        paints: {
+          title: "Industrial & Exterior Weather Armor",
+          dept: "Kalika Steel Traders",
+          cadRef: "IS: 15489 WEATHER DEFENSE",
+          desc: "Elastomeric heavy weather defense coatings formulated to prevent micro-fissure water seepage and UV degradation.",
+          spec1: "Elongation: 120% Elastic",
+          spec2: "Sheen Level: 15 - 25% Satin",
+          spec3: "Algal Resistance: 7-Year Warranty",
+          spec4: "VOC Content: < 35 g/L"
+        },
+        plywood: {
+          title: "IS: 710 BWR Marine Hardwood Plywood",
+          dept: "Kalika Steel Traders",
+          cadRef: "IS: 710 BWR MARINE SPEC",
+          desc: "Phenolic resin bonded structural plywood designed for prolonged boiling water immersion and architectural formwork.",
+          spec1: "Phenolic Glue Shear > 1350 N",
+          spec2: "Moisture Content: 8% - 12%",
+          spec3: "72-Hour Boiling Resistance",
+          spec4: "IS 710 Marine Certified"
+        },
+        hardware: {
+          title: "Grade 8.8 Structural Bolt Assemblies",
+          dept: "Kalika Steel Traders",
+          cadRef: "ISO 898-1 STRUCTURAL FASTENER",
+          desc: "High-tensile quenched and tempered bolts, heavy hex nuts, and hot-dip galvanized roofing fasteners.",
+          spec1: "Proof Load: 580 N/mm²",
+          spec2: "Tensile: 800 N/mm²",
+          spec3: "Zinc Coating: ≥ 45 Microns",
+          spec4: "ISO 898-1 / DIN 933 Metric"
+        }
+      };
+
+      btnsOpen3d.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const key = btn.getAttribute('data-product');
+          const data = product3dData[key] || product3dData.steel;
+
+          document.getElementById('modalProductTitle').textContent = data.title;
+          document.getElementById('modalProductDept').textContent = data.dept;
+          document.getElementById('modalCadRef').textContent = data.cadRef;
+          document.getElementById('modalProductDescription').textContent = data.desc;
+          document.getElementById('modalSpec1').textContent = data.spec1;
+          document.getElementById('modalSpec2').textContent = data.spec2;
+          document.getElementById('modalSpec3').textContent = data.spec3;
+          document.getElementById('modalSpec4').textContent = data.spec4;
+
+          if (product3dModal) product3dModal.classList.remove('hidden');
+        });
+      });
+
+      if (closeProduct3dBtn) {
+        closeProduct3dBtn.addEventListener('click', () => {
+          if (product3dModal) product3dModal.classList.add('hidden');
+        });
+      }
+
+      if (product3dModal) {
+        product3dModal.addEventListener('click', (e) => {
+          if (e.target === product3dModal) product3dModal.classList.add('hidden');
+        });
+      }
+
+      // Azimuth rotation slider
+      if (cadSlider && rotatingMesh && rotationAngleDisplay) {
+        cadSlider.addEventListener('input', (e) => {
+          const val = e.target.value;
+          rotatingMesh.style.transform = `rotate(${val}deg) scale(1.1)`;
+          rotationAngleDisplay.textContent = `${val}° AZIMUTH`;
+        });
+      }
+
+      // Order Quote from inside 3D modal
+      if (modalOrderQuoteBtn) {
+        modalOrderQuoteBtn.addEventListener('click', () => {
+          if (product3dModal) product3dModal.classList.add('hidden');
+          if (rfqModal) rfqModal.classList.remove('hidden');
+        });
+      }
+    })();
+  </script>
+</div></main><footer class="w-full bg-primary-container text-on-surface pt-space-xl pb-space-lg shadow-[0_-16px_32px_-8px_rgba(0,5,11,0.40)]"><div class="w-full px-margin-mobile lg:px-margin-desktop"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-gutter-lg pb-space-xl"><div class="lg:col-span-4 flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><img alt="Kalika Steel Traders and Industries Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WgWy5E-Zg0-oLzOirmWhIsndI_yP3oyJ058WxLgj2qIyI1-c2QhH7PgMvZGR2PB99CGk7eMPekqNmPgKavDp6puPQ_sXjBKBAyBDDIsWpbhsK-n8pnIxE_qYxCuGGBPKHlDSWsTgPIFuwPs4_g_c22-UQ7B4nOCeoYMDAa_FZoV7QLBAwmXvRAHKnU_a-OJwjQtJ_IuX4pm5FiONT-s6e5mhFdGo0D4rjHtQCb46Rs"/><div class="flex flex-col"><span class="font-headline-md text-headline-md tracking-wider uppercase text-on-surface leading-none">KALIKA</span><span class="font-label-caps text-label-caps tracking-widest uppercase text-tertiary-fixed-dim">STEEL TRADERS &amp; INDUSTRIES</span></div></div><div class="space-y-space-sm"><p class="font-body-sm text-body-sm text-on-surface-variant"><strong class="font-semibold text-on-surface uppercase font-label-caps text-label-caps tracking-wider block text-tertiary-fixed">Kalika Steel Traders:</strong> Premier industrial distributor of certified structural steel, TMT rebar reinforcement systems, and heavy-grade civil construction supplies powering nationwide infrastructure.</p><p class="font-body-sm text-body-sm text-on-surface-variant"><strong class="font-semibold text-on-surface uppercase font-label-caps text-label-caps tracking-wider block text-tertiary-fixed">Kalika Industries:</strong> State-of-the-art manufacturer of high-tensile corrugated cement sheets, reinforced roofing enclosures, and structural prefabricated building solutions.</p></div></div><div class="lg:col-span-2 flex flex-col gap-space-sm"><h4 class="font-label-caps text-label-caps uppercase tracking-widest text-on-tertiary-container">Quick Links</h4><nav class="flex flex-col gap-space-xs" data-active-classes="text-tertiary-fixed font-semibold"><a aria-current="page" class="transition-colors text-tertiary-fixed font-semibold" data-path="home" href="#hero">Home</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="about" href="#about">Corporate Profile</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="manufacturing" href="#manufacturing">Foundry &amp; Manufacturing</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="why-choose-us" href="#why-us">Quality Assurance</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="brands" href="#brands">Authorized Brands</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="gallery" href="#gallery">Project Gallery</a></nav></div><div class="lg:col-span-3 flex flex-col gap-space-sm"><h4 class="font-label-caps text-label-caps uppercase tracking-widest text-on-tertiary-container">Core Categories</h4><nav class="flex flex-col gap-space-xs" data-active-classes="text-tertiary-fixed font-semibold"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="steel-tmt-bars" href="#products">Steel &amp; TMT Bars</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="cement-building-materials" href="#products">Cement &amp; Building Materials</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="cement-sheets" href="#products">Corrugated Cement Sheets</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="plumbing" href="#products">Plumbing &amp; Fluid Handling</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="paints" href="#products">Industrial &amp; Decorative Paints</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="plywood" href="#products">Plywood &amp; Shuttering Panels</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="hardware" href="#products">Fasteners &amp; Heavy Hardware</a></nav></div><div class="lg:col-span-3 flex flex-col gap-space-sm"><h4 class="font-label-caps text-label-caps uppercase tracking-widest text-on-tertiary-container">Corporate &amp; Plant</h4><div class="flex flex-col gap-space-sm text-on-surface-variant font-body-sm text-body-sm"><div class="flex items-start gap-space-xs"><span class="material-symbols-outlined text-tertiary-fixed text-[18px] shrink-0 mt-0.5">location_on</span><span>Industrial Hub, Phase II, Highway Corridor, Central Plant &amp; Yards</span></div><div class="flex items-start gap-space-xs"><span class="material-symbols-outlined text-tertiary-fixed text-[18px] shrink-0 mt-0.5">call</span><span>+91 (0) 800-KALIKA-STEEL / +91 (0) 800-525-452</span></div><div class="flex items-start gap-space-xs"><span class="material-symbols-outlined text-tertiary-fixed text-[18px] shrink-0 mt-0.5">mail</span><span>procurement@kalikasteel.com</span></div><div class="flex items-start gap-space-xs"><span class="material-symbols-outlined text-tertiary-fixed text-[18px] shrink-0 mt-0.5">verified</span><span class="font-code-spec text-code-spec">GSTIN: 27AAAAA0000A1Z5 | IS: 1786 / IS: 456 CERTIFIED</span></div></div></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md"><p class="font-body-sm text-body-sm text-on-surface-variant text-center md:text-left">© 2025 Kalika Steel Traders &amp; Kalika Industries. All rights reserved. Precision Metallurgical &amp; Building Solutions.</p><p class="font-code-spec text-code-spec text-on-primary-container text-center md:text-right">ISO 9001:2015 Structural Conformance | Bureau of Indian Standards Compliant</p></div></div></footer></body></html>

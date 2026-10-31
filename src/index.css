@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    color-scheme: dark;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #0b141c;
+    color: #dae4ef;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0b141c;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #212b33;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c96b2b;
+}
+
+/* Three.js canvas container */
+#threejs-hero-canvas canvas {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* Blueprint grid pattern helper */
+.bg-blueprint-grid {
+  background-image: radial-gradient(rgba(217, 119, 54, 0.15) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+/* Focus visible styles for keyboard accessibility */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #d97736;
+  outline-offset: 2px;
+}
+
