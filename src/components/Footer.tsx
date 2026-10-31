@@ -27,7 +27,7 @@ export const Footer: React.FC = () => {
 
             <div className="space-y-space-sm">
               <p className="font-body-sm text-body-sm text-tertiary-fixed font-semibold">
-                {COMPANY_INFO.marathiTagline}
+                {COMPANY_INFO.taglineSecondary}
               </p>
               <p className="font-body-sm text-body-sm text-on-surface-variant">
                 <strong className="font-semibold text-on-surface uppercase font-label-caps text-label-caps tracking-wider block text-tertiary-fixed">
