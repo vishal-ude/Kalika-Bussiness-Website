@@ -140,7 +140,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onShowToast }) =
                   Central Plant & Stock Yards
                 </h4>
                 <p className="font-code-spec text-code-spec text-secondary max-w-xs">
-                  Industrial Highway Corridor • Direct Weighbridge Staging
+                  Kukana - Bhenda Road • Direct Factory Weighbridge & Dispatch
                 </p>
                 <span className="mt-space-sm px-space-sm py-1 bg-surface-container-high rounded text-tertiary-fixed font-code-spec text-[11px] border border-outline-variant/30">
                   COORDINATES: {COMPANY_INFO.coordinates}

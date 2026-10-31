@@ -10,9 +10,11 @@ export const Footer: React.FC = () => {
           {/* Brand & Divisions Info */}
           <div className="lg:col-span-4 flex flex-col gap-space-md">
             <div className="flex items-center gap-space-sm">
-              <div className="w-8 h-8 rounded bg-on-tertiary-container flex items-center justify-center text-white shadow-glow-copper font-display-hero font-bold text-lg">
-                K
-              </div>
+              <img
+                src="/images/kalika-logo.png"
+                alt="Kalika Industries Logo"
+                className="h-10 w-auto object-contain rounded border border-outline-variant/30 shadow-md"
+              />
               <div className="flex flex-col">
                 <span className="font-headline-md text-headline-md tracking-wider uppercase text-on-surface leading-none">
                   {COMPANY_INFO.name}
@@ -24,6 +26,9 @@ export const Footer: React.FC = () => {
             </div>
 
             <div className="space-y-space-sm">
+              <p className="font-body-sm text-body-sm text-tertiary-fixed font-semibold">
+                {COMPANY_INFO.marathiTagline}
+              </p>
               <p className="font-body-sm text-body-sm text-on-surface-variant">
                 <strong className="font-semibold text-on-surface uppercase font-label-caps text-label-caps tracking-wider block text-tertiary-fixed">
                   Kalika Steel Traders:

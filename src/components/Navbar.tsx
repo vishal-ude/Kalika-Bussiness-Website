@@ -45,9 +45,11 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenRfq }) => {
         <div className="w-full px-margin-mobile lg:px-margin-desktop flex items-center justify-between gap-space-md">
           {/* Logo & Brand Identity */}
           <a href="#hero" className="flex items-center gap-space-sm shrink-0 group">
-            <div className="w-9 h-9 rounded bg-on-tertiary-container flex items-center justify-center text-white shadow-glow-copper group-hover:bg-tertiary group-hover:text-on-tertiary transition-colors">
-              <span className="font-display-hero font-bold text-xl tracking-tight leading-none">K</span>
-            </div>
+            <img
+              src="/images/kalika-logo.png"
+              alt="Kalika Industries Logo"
+              className="h-10 w-auto object-contain rounded border border-outline-variant/30 shadow-md group-hover:scale-105 transition-transform"
+            />
             <div className="flex flex-col">
               <span className="font-headline-md text-headline-md tracking-wider uppercase text-on-surface leading-none group-hover:text-white transition-colors">
                 {COMPANY_INFO.name}
